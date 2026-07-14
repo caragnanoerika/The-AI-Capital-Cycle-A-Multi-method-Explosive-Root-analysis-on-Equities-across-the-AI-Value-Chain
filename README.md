@@ -1,11 +1,11 @@
 # AI Capital Cycle — Multi-Method Bubble Diagnostics
 
-**Erika Francesca Caragnano · ESCP Business School / Politecnico di Torino**
+**Erika Francesca Caragnano - ESCP Business School / Politecnico di Torino**
 
-Reproducible pipeline for detecting and date-stamping speculative episodes in
+This repo contains a pipeline for detecting and date-stamping speculative episodes in
 AI-exposed equities using ADF / PP / KPSS / SADF / GSADF (PSY 2015) /
 SV-ADF (Sarkar & Wells 2026). Universe: ~80 tickers organized by position in
-the AI value chain (semiconductors, hyperscale cloud, application AI, commodities).
+the AI value chain taxonomy developed by the author. 
 
 ---
 
