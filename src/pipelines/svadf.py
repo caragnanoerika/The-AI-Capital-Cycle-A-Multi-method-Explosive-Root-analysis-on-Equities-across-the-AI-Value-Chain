@@ -19,6 +19,9 @@ def run_one(ticker: str, series: pd.Series,
             M:           int | None = None,
             R:           int | None = None,
             bridge_days: int | None = None) -> dict | None:
+    """Run SV-ADF for `ticker` on [window_start, window_end] (defaults to the
+    post-ChatGPT W1 window) and cache the result. Returns the summary dict,
+    or None if skipped (cached) or the series is too short."""
     w_start     = window_start  or settings.SVADF_DEFAULT_START
     w_end       = window_end    or settings.SVADF_DEFAULT_END
     M           = M           or settings.SV_MIN_UP

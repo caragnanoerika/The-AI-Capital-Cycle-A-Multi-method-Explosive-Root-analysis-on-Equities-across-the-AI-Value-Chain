@@ -21,6 +21,12 @@ OUTPUTS_DIR     = PROJECT_ROOT / "outputs"
 TABLES_DIR      = OUTPUTS_DIR / "tables"
 FIGURES_DIR     = OUTPUTS_DIR / "figures"
 
+# outputs/tables/ subfolders — one per producing method, mirrors outputs/figures/
+TABLES_STATIONARITY_DIR = TABLES_DIR / "stationarity"  # scripts/06_stationarity_table.py
+TABLES_GSADF_DIR        = TABLES_DIR / "gsadf"          # scripts/12_gsadf_equity_table.py
+TABLES_SVADF_DIR        = TABLES_DIR / "svadf"          # scripts/13_svadf_equity_table.py
+TABLES_SUMMARY_DIR      = TABLES_DIR / "summary"        # notebooks/01_visualization.ipynb
+
 PRICES_FILE          = PRICES_DIR / "prices.csv"
 MC_GLOBAL_INDEX_FILE = MC_CACHE_DIR / "global_critical_values.csv"
 
@@ -54,128 +60,19 @@ SADF_CV_5PCT   = 1.49     # Asymptotic 5% CV (PWY 2011)
 SEED           = 42
 
 # SV-ADF episode-detection parameters (Sarkar & Wells 2026, reference code)
-SV_MIN_UP    = 42  # M: ≥ 60 consecutive steps above log(τ)/10 for origination
-SV_MIN_DOWN  = 21  # R: ≥ 30 consecutive steps below log(τ)/2  for post-bridge collapse
+SV_MIN_UP    = 42  # M: ≥ 42 consecutive steps above log(τ)/10 for origination
+SV_MIN_DOWN  = 21  # R: ≥ 21 consecutive steps below log(τ)/2  for post-bridge collapse
 SV_BRIDGE_DAYS = 90  # bridge window in calendar days after origination
 
 # GSADF/BSADF episode-detection filters — addresses spurious-bubble issue.
 # A "minimum window" for an episode = how long a BSADF crossing must persist
 # to count as a real episode. Defaults are MUCH stricter than before (was ~8).
-EPISODE_MIN_DURATION = 60   # ≥ 21 trading days (~1 month) — filters out micro-episodes
-EPISODE_MERGE_GAP    = 42   # merge episodes separated by ≤ 21 trading days
+EPISODE_MIN_DURATION = 60   # ≥ 60 trading days (~3 months) — filters out micro-episodes
+EPISODE_MERGE_GAP    = 42   # merge episodes separated by ≤ 42 trading days
 
 # ─── Universe ─────────────────────────────────────────────────────────────────
-# Editing this dict adds/removes tickers. New tickers trigger fresh MC for
-# their (T, min_window); existing ones reuse the cache.
-
-"""
-UNIVERSE = {
-    "1. Compute / Chip Designers": {
-        "NVDA": "Nvidia — GPU/AI accelerators, CUDA",
-        "AMD":  "Advanced Micro Devices — Instinct/EPYC",
-        "INTC": "Intel — CPUs, Gaudi accelerators",
-        "AVGO": "Broadcom — networking + custom AI ASICs",
-        "MRVL": "Marvell — custom silicon, AI networking",
-    },
-    "2. Foundry & Manufacturing": {
-        "TSM":  "TSMC — leading-edge foundry",
-        "ASML": "ASML — EUV lithography monopoly",
-        "AMAT": "Applied Materials — wafer fab equipment",
-        "LRCX": "Lam Research — etch/deposition equipment",
-    },
-    "3. Memory & Storage": {
-        "MU":  "Micron — DRAM/HBM",
-        "WDC": "Western Digital — storage",
-        "STX": "Seagate — storage",
-    },
-    "4. Networking & Data Center Infrastructure": {
-        "ANET": "Arista Networks — DC switching",
-        "CSCO": "Cisco — networking incumbent",
-        "NOK":  "Nokia — telecom networks",
-        "CIEN": "Ciena — optical networking",
-    },
-    "5. Hyperscalers / Cloud AI": {
-        "MSFT":  "Microsoft — Azure, OpenAI partner",
-        "AMZN":  "Amazon — AWS, Anthropic partner",
-        "GOOGL": "Alphabet — Google Cloud, Gemini",
-        "META":  "Meta — Llama, AI advertising",
-        "ORCL":  "Oracle — OCI, AI infrastructure",
-    },
-    "6. Data Center Infrastructure (REITs)": {
-        "EQIX": "Equinix — colocation",
-        "DLR":  "Digital Realty — data center REIT",
-    },
-    "7. Software / AI Platforms": {
-        "PLTR": "Palantir — enterprise/government AI",
-        "SNOW": "Snowflake — data cloud",
-        "DDOG": "Datadog — observability with AI",
-        "AI":   "C3.ai — enterprise AI platform",
-    },
-    "8. Edge AI / Devices / Ecosystem": {
-        "QCOM": "Qualcomm — mobile/edge AI silicon",
-        "AAPL": "Apple — devices, on-device AI",
-        "TSLA": "Tesla — autonomy/robotics narrative",
-    },
-    "9. Weird Stuff": {
-        "IBM": "International Business Machines Corporation",
-    }
-}
-
-COMMODITIES = {
-    "Energy": {
-        "USO":  "United States Oil Fund ETF (WTI proxy)",
-        "UNG":  "United States Natural Gas Fund ETF",
-        "BNO":  "Brent Oil Fund ETF",
-    },
-    "Metals": {
-        "GLD":  "SPDR Gold ETF",
-        "SLV":  "iShares Silver ETF",
-        "JJC":  "iShares Copper ETN",
-        "PPLT": "Aberdeen Platinum ETF",
-        "PALL": "Aberdeen Palladium ETF",
-    },
-    "Agriculture": {
-        "DBA":  "Invesco Agriculture ETF",
-        "WEAT": "Teucrium Wheat ETF",
-        "CORN": "Teucrium Corn ETF",
-        "SOYB": "Teucrium Soybean ETF",
-    },
-    "Livestock": {
-        "COW":  "iPath Livestock ETN (broad proxy)",
-    },
-    "Broad Commodity Indices": {
-        "DBC":  "Invesco DB Commodity Index ETF",
-        "GSG":  "iShares S&P GSCI Commodity ETF",
-        "PDBC": "Invesco Optimum Yield Diversified Commodity ETF",
-    },
-}
-
-INDICES = {
-    "^IXIC": "Nasdaq Composite — broad tech benchmark",
-    "^SOX":  "PHLX Semiconductor Index — sector benchmark",
-    "^GSPC": "S&P 500 — broad-market control",
-}
-
-# ─── Validation cases (historical bubbles) ────────────────────────────────────
-VALIDATION_CASES = {
-    "NASDAQ_dotcom": {
-        "ticker": "^IXIC", "start": "1990-01-01", "end": "2003-12-31",
-        "expected_peak": "March 2000",
-        "expected_dates": "PSY (2015): origination ~ Jun 1995, collapse ~ Sep 2000",
-    },
-    "SP500_dotcom": {
-        "ticker": "^GSPC", "start": "1995-01-01", "end": "2003-12-31",
-        "expected_peak": "March 2000",
-        "expected_dates": "Broader market dot-com cycle",
-    },
-    "SP500_gfc": {
-        "ticker": "^GSPC", "start": "2003-01-01", "end": "2010-12-31",
-        "expected_peak": "October 2007",
-        "expected_dates": "Pre-GFC housing/credit cycle",
-    },
-}
-
-"""
+# Editing these dicts adds/removes tickers. New tickers trigger fresh Monte
+# Carlo simulation for their (T, min_window) pair; existing ones reuse the cache.
 # ──────────────────────────────────────────────────────────────────────────────
 # UNIVERSE — Equity universe organised by AI value-chain layer (Chapter 2).
 # Ordering is strictly upstream → midstream → downstream, mirroring §2.2.

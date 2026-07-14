@@ -1,0 +1,56 @@
+﻿ticker,segment,n_ep,reject,min_duration,merge_gap,config
+ASML,1. Semiconductor Equipment,1,True,90,42,A2_md90_mg42
+AMAT,1. Semiconductor Equipment,1,True,90,42,A2_md90_mg42
+LRCX,1. Semiconductor Equipment,1,True,90,42,A2_md90_mg42
+NVDA,2. Chip Design (AI accelerators),3,True,90,42,A2_md90_mg42
+AMD,2. Chip Design (AI accelerators),0,False,90,42,A2_md90_mg42
+INTC,2. Chip Design (AI accelerators),0,False,90,42,A2_md90_mg42
+AVGO,2. Chip Design (AI accelerators),2,True,90,42,A2_md90_mg42
+MRVL,2. Chip Design (AI accelerators),0,False,90,42,A2_md90_mg42
+MU,3. Memory (HBM-relevant),1,True,90,42,A2_md90_mg42
+TSM,4. Foundry (leading-edge),3,True,90,42,A2_md90_mg42
+WDC,5. Storage (non-HBM control),2,True,90,42,A2_md90_mg42
+STX,5. Storage (non-HBM control),2,True,90,42,A2_md90_mg42
+ANET,6. Data-Centre Networking & Optical,1,True,90,42,A2_md90_mg42
+CSCO,6. Data-Centre Networking & Optical,0,False,90,42,A2_md90_mg42
+NOK,6. Data-Centre Networking & Optical,0,False,90,42,A2_md90_mg42
+CIEN,6. Data-Centre Networking & Optical,1,True,90,42,A2_md90_mg42
+EQIX,7. Data-Centre REITs (colocation & build-out),0,False,90,42,A2_md90_mg42
+DLR,7. Data-Centre REITs (colocation & build-out),0,False,90,42,A2_md90_mg42
+MSFT,8. Hyperscale Cloud,0,False,90,42,A2_md90_mg42
+AMZN,8. Hyperscale Cloud,0,False,90,42,A2_md90_mg42
+GOOGL,8. Hyperscale Cloud,2,True,90,42,A2_md90_mg42
+META,8. Hyperscale Cloud,2,True,90,42,A2_md90_mg42
+ORCL,8. Hyperscale Cloud,3,True,90,42,A2_md90_mg42
+IBM,9. Enterprise AI / Hybrid Cloud,2,True,90,42,A2_md90_mg42
+PLTR,10. Application & AI Platform Software,1,True,90,42,A2_md90_mg42
+SNOW,10. Application & AI Platform Software,0,False,90,42,A2_md90_mg42
+DDOG,10. Application & AI Platform Software,0,False,90,42,A2_md90_mg42
+AI,10. Application & AI Platform Software,0,False,90,42,A2_md90_mg42
+QCOM,11. Edge AI & Devices,0,False,90,42,A2_md90_mg42
+AAPL,11. Edge AI & Devices,0,False,90,42,A2_md90_mg42
+TSLA,11. Edge AI & Devices,2,True,90,42,A2_md90_mg42
+CRWV,P. Specialised AI Cloud (neoclouds),0,False,90,42,A2_md90_mg42
+NBIS,P. Specialised AI Cloud (neoclouds),1,True,90,42,A2_md90_mg42
+CEG,P. Power & Grid (data-centre electricity),2,True,90,42,A2_md90_mg42
+VST,P. Power & Grid (data-centre electricity),2,True,90,42,A2_md90_mg42
+ASX,P. Advanced Packaging (pure-play),1,True,90,42,A2_md90_mg42
+USO,C. AI-relevant: Energy (DC power proxy),1,True,90,42,A2_md90_mg42
+UNG,C. AI-relevant: Energy (DC power proxy),0,False,90,42,A2_md90_mg42
+BNO,C. AI-relevant: Energy (DC power proxy),1,True,90,42,A2_md90_mg42
+JJC,C. AI-relevant: Industrial metals (hardware inputs),1,True,90,42,A2_md90_mg42
+PPLT,C. AI-relevant: Industrial metals (hardware inputs),1,True,90,42,A2_md90_mg42
+PALL,C. AI-relevant: Industrial metals (hardware inputs),0,False,90,42,A2_md90_mg42
+GLD,C. Confound: Precious metals (monetary),1,True,90,42,A2_md90_mg42
+SLV,C. Confound: Precious metals (monetary),1,True,90,42,A2_md90_mg42
+DBA,C. Placebo: Agriculture,1,True,90,42,A2_md90_mg42
+WEAT,C. Placebo: Agriculture,0,False,90,42,A2_md90_mg42
+CORN,C. Placebo: Agriculture,1,True,90,42,A2_md90_mg42
+SOYB,C. Placebo: Agriculture,2,True,90,42,A2_md90_mg42
+COW,C. Placebo: Livestock,0,False,90,42,A2_md90_mg42
+DBC,C. Benchmark: Broad commodity indices,2,True,90,42,A2_md90_mg42
+GSG,C. Benchmark: Broad commodity indices,1,True,90,42,A2_md90_mg42
+PDBC,C. Benchmark: Broad commodity indices,2,True,90,42,A2_md90_mg42
+^IXIC,0. Index / Control,0,False,90,42,A2_md90_mg42
+^SOX,0. Index / Control,0,False,90,42,A2_md90_mg42
+^GSPC,0. Index / Control,0,False,90,42,A2_md90_mg42

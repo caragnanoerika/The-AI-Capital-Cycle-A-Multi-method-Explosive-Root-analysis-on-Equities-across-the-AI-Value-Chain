@@ -1,0 +1,22 @@
+Segment,N,Tickers with GSADF episode,Total episodes
+0. Index / Control,3,0,0
+1. Semiconductor Equipment,3,3,6
+10. Application & AI Platform Software,4,2,2
+11. Edge AI & Devices,3,3,4
+2. Chip Design (AI accelerators),5,3,8
+3. Memory (HBM-relevant),1,1,3
+4. Foundry (leading-edge),1,1,5
+5. Storage (non-HBM control),2,2,4
+6. Data-Centre Networking & Optical,4,3,4
+7. Data-Centre REITs (colocation & build-out),2,0,0
+8. Hyperscale Cloud,5,4,10
+9. Enterprise AI / Hybrid Cloud,1,1,2
+C. AI-relevant: Energy (DC power proxy),3,3,4
+C. AI-relevant: Industrial metals (hardware inputs),3,2,2
+C. Benchmark: Broad commodity indices,3,3,8
+C. Confound: Precious metals (monetary),2,2,3
+C. Placebo: Agriculture,4,4,8
+C. Placebo: Livestock,1,0,0
+P. Advanced Packaging (pure-play),1,1,2
+P. Power & Grid (data-centre electricity),2,2,4
+P. Specialised AI Cloud (neoclouds),2,1,1

@@ -1,0 +1,54 @@
+﻿ticker,segment,T,mw,stat,reject_90,reject_95,reject_99,n_ep_90,n_ep_95,n_ep_99,n_ep,reject,period
+ASML,1. Semiconductor Equipment,714,55,1.58205149365201,False,False,False,1,0,0,0,False,A1_pre_ChatGPT
+AMAT,1. Semiconductor Equipment,714,55,2.212142584986231,True,False,False,1,1,1,1,False,A1_pre_ChatGPT
+LRCX,1. Semiconductor Equipment,714,55,1.6100443084043108,False,False,False,1,0,0,0,False,A1_pre_ChatGPT
+NVDA,2. Chip Design (AI accelerators),714,55,2.538192513867744,True,True,False,1,1,0,1,True,A1_pre_ChatGPT
+AMD,2. Chip Design (AI accelerators),714,55,3.3188326163453925,True,True,True,0,0,0,0,True,A1_pre_ChatGPT
+INTC,2. Chip Design (AI accelerators),714,55,1.5648208765295062,False,False,False,0,0,0,0,False,A1_pre_ChatGPT
+AVGO,2. Chip Design (AI accelerators),714,55,2.01223190672699,False,False,False,0,0,0,0,False,A1_pre_ChatGPT
+MRVL,2. Chip Design (AI accelerators),714,55,1.7620348786773412,False,False,False,0,0,0,0,False,A1_pre_ChatGPT
+MU,3. Memory (HBM-relevant),714,55,2.270650271596593,True,False,False,1,1,1,1,False,A1_pre_ChatGPT
+TSM,4. Foundry (leading-edge),714,55,3.2523133427000808,True,True,True,1,1,0,1,True,A1_pre_ChatGPT
+WDC,5. Storage (non-HBM control),714,55,1.1465340059130984,False,False,False,1,1,0,1,False,A1_pre_ChatGPT
+STX,5. Storage (non-HBM control),714,55,2.136607296108355,True,False,False,1,1,0,1,False,A1_pre_ChatGPT
+ANET,6. Data-Centre Networking & Optical,714,55,3.0351797639065126,True,True,True,1,0,0,0,True,A1_pre_ChatGPT
+CSCO,6. Data-Centre Networking & Optical,714,55,0.7601211001787618,False,False,False,1,0,0,0,False,A1_pre_ChatGPT
+NOK,6. Data-Centre Networking & Optical,714,55,2.8564282750073313,True,True,True,1,0,0,0,True,A1_pre_ChatGPT
+CIEN,6. Data-Centre Networking & Optical,714,55,1.4013692415375092,False,False,False,0,0,0,0,False,A1_pre_ChatGPT
+EQIX,7. Data-Centre REITs (colocation & build-out),714,55,1.1740167707643718,False,False,False,0,0,0,0,False,A1_pre_ChatGPT
+DLR,7. Data-Centre REITs (colocation & build-out),714,55,1.1052781280352646,False,False,False,0,0,0,0,False,A1_pre_ChatGPT
+MSFT,8. Hyperscale Cloud,714,55,0.8411026712906521,False,False,False,1,0,0,0,False,A1_pre_ChatGPT
+AMZN,8. Hyperscale Cloud,714,55,1.5296020953073177,False,False,False,0,0,0,0,False,A1_pre_ChatGPT
+GOOGL,8. Hyperscale Cloud,714,55,1.0102682072170295,False,False,False,1,0,0,0,False,A1_pre_ChatGPT
+META,8. Hyperscale Cloud,714,55,0.7705876139699767,False,False,False,0,0,0,0,False,A1_pre_ChatGPT
+ORCL,8. Hyperscale Cloud,714,55,1.1547338732740864,False,False,False,1,1,0,1,False,A1_pre_ChatGPT
+IBM,9. Enterprise AI / Hybrid Cloud,714,55,0.6578972251570421,False,False,False,0,0,0,0,False,A1_pre_ChatGPT
+PLTR,10. Application & AI Platform Software,526,46,0.8941758036327885,False,False,False,0,0,0,0,False,A1_pre_ChatGPT
+SNOW,10. Application & AI Platform Software,536,47,1.018809636681708,False,False,False,0,0,0,0,False,A1_pre_ChatGPT
+DDOG,10. Application & AI Platform Software,714,55,2.2075741037599403,True,False,False,2,0,0,0,False,A1_pre_ChatGPT
+AI,10. Application & AI Platform Software,477,44,0.8208789071294479,False,False,False,0,0,0,0,False,A1_pre_ChatGPT
+QCOM,11. Edge AI & Devices,714,55,1.8298496240465894,False,False,False,1,0,0,0,False,A1_pre_ChatGPT
+AAPL,11. Edge AI & Devices,714,55,1.7376226226908096,False,False,False,1,0,0,0,False,A1_pre_ChatGPT
+TSLA,11. Edge AI & Devices,714,55,5.1449653627204635,True,True,True,2,0,0,0,True,A1_pre_ChatGPT
+CEG,P. Power & Grid (data-centre electricity),198,27,1.2704367802931753,False,False,False,0,0,0,0,False,A1_pre_ChatGPT
+VST,P. Power & Grid (data-centre electricity),714,55,0.8436870254440589,False,False,False,0,0,0,0,False,A1_pre_ChatGPT
+ASX,P. Advanced Packaging (pure-play),714,55,3.14961043240426,True,True,True,1,1,0,1,True,A1_pre_ChatGPT
+USO,C. AI-relevant: Energy (DC power proxy),714,55,3.2807631463383866,True,True,True,1,1,0,1,True,A1_pre_ChatGPT
+UNG,C. AI-relevant: Energy (DC power proxy),714,55,3.015538988982393,True,True,True,1,1,1,1,True,A1_pre_ChatGPT
+BNO,C. AI-relevant: Energy (DC power proxy),714,55,4.263963659816874,True,True,True,1,0,0,0,True,A1_pre_ChatGPT
+JJC,C. AI-relevant: Industrial metals (hardware inputs),714,55,2.9122243283301694,True,True,True,1,1,0,1,True,A1_pre_ChatGPT
+PPLT,C. AI-relevant: Industrial metals (hardware inputs),714,55,1.4817987267497714,False,False,False,0,0,0,0,False,A1_pre_ChatGPT
+PALL,C. AI-relevant: Industrial metals (hardware inputs),714,55,2.4799820002885196,True,True,False,0,0,0,0,True,A1_pre_ChatGPT
+GLD,C. Confound: Precious metals (monetary),714,55,2.9139536624603055,True,True,True,0,0,0,0,True,A1_pre_ChatGPT
+SLV,C. Confound: Precious metals (monetary),714,55,3.616065209246242,True,True,True,1,0,0,0,True,A1_pre_ChatGPT
+DBA,C. Placebo: Agriculture,714,55,2.1498795250938167,True,False,False,2,2,0,2,False,A1_pre_ChatGPT
+WEAT,C. Placebo: Agriculture,714,55,4.521791568026655,True,True,True,1,0,0,0,True,A1_pre_ChatGPT
+CORN,C. Placebo: Agriculture,714,55,3.7081046001840154,True,True,True,2,2,1,2,True,A1_pre_ChatGPT
+SOYB,C. Placebo: Agriculture,714,55,3.7758552995294927,True,True,True,2,1,1,1,True,A1_pre_ChatGPT
+COW,C. Placebo: Livestock,714,55,1.536083426248206,False,False,False,0,0,0,0,False,A1_pre_ChatGPT
+DBC,C. Benchmark: Broad commodity indices,714,55,4.156611692889837,True,True,True,1,2,1,2,True,A1_pre_ChatGPT
+GSG,C. Benchmark: Broad commodity indices,714,55,5.125905333433657,True,True,True,2,2,0,2,True,A1_pre_ChatGPT
+PDBC,C. Benchmark: Broad commodity indices,714,55,4.207596657136047,True,True,True,1,2,1,2,True,A1_pre_ChatGPT
+^IXIC,0. Index / Control,714,55,0.6677339005814806,False,False,False,0,0,0,0,False,A1_pre_ChatGPT
+^SOX,0. Index / Control,714,55,0.8349373408007886,False,False,False,0,0,0,0,False,A1_pre_ChatGPT
+^GSPC,0. Index / Control,714,55,0.6924694705991727,False,False,False,0,0,0,0,False,A1_pre_ChatGPT

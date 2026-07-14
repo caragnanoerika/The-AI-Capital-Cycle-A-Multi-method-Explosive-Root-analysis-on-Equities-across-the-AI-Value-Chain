@@ -6,6 +6,8 @@ from config import settings
 
 
 def download_prices(tickers, start, end, interval="1d") -> pd.DataFrame:
+    """Fetch adjusted close prices for `tickers` from Yahoo Finance and
+    return a wide DataFrame indexed by date, one column per ticker."""
     print(f"Downloading {len(tickers)} tickers …")
     raw = yf.download(
         tickers, start=start, end=end, interval=interval,

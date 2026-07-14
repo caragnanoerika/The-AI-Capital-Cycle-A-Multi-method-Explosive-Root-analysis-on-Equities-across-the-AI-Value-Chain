@@ -57,7 +57,6 @@ def main(cases: list[str] | None, methods: list[str]) -> None:
         # Persist the validation series to prices.csv under the case name so
         # load_ticker_series can find it for plotting. The historical date
         # range doesn't interfere with the main 2019-2026 universe.
-        import pandas as pd
         if settings.PRICES_FILE.exists():
             prices_df = pd.read_csv(settings.PRICES_FILE, index_col=0, parse_dates=True)
         else:

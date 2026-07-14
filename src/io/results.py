@@ -106,19 +106,6 @@ def load_sadf_window(ticker: str, w_start: str, w_end: str) -> dict | None:
     return {"summary": summary, "paths": paths_df}
 
 
-def list_sadf_windows(ticker: str) -> list[tuple[str, str]]:
-    """Return all sub-window (start, end) pairs for which windowed SADF exists."""
-    out = []
-    for f in settings.RES_SADF_DIR.glob(f"{ticker}_*_summary.json"):
-        wid = f.stem.replace(f"{ticker}_", "").replace("_summary", "")
-        try:
-            start, end = wid.split("_")
-            out.append((start, end))
-        except ValueError:
-            continue
-    return sorted(out)
-
-
 # ── GSADF ────────────────────────────────────────────────────────────────────
 def save_gsadf(ticker: str, summary: dict,
                paths_df: pd.DataFrame | None = None) -> dict:
@@ -186,7 +173,6 @@ def available_tickers() -> list[str]:
               settings.RES_GSADF_DIR, settings.RES_SVADF_DIR]:
         if d.exists():
             for f in d.glob("*.json"):
-                tk = f.stem.split("_")[0] if "_" in f.stem else f.stem
                 tk = f.stem.replace("_summary", "").split("_")[0]
                 tickers.add(tk)
     return sorted(tickers)

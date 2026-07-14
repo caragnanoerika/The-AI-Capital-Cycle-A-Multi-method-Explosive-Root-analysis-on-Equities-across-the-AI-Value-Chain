@@ -9,6 +9,7 @@ import numpy as np
 
 
 def _build_regressor(dy: np.ndarray, ylag: np.ndarray, L: int) -> np.ndarray | None:
+    """Design matrix [1, y_{t-1}, Δy_{t-1}, …, Δy_{t-L}] for the ADF regression."""
     n = len(dy)
     if L >= n - 2:
         return None
@@ -22,6 +23,8 @@ def _build_regressor(dy: np.ndarray, ylag: np.ndarray, L: int) -> np.ndarray | N
 
 
 def _ols_fast(X: np.ndarray, y: np.ndarray) -> dict | None:
+    """OLS via lstsq, plus the standard errors / t-stats / log-likelihood
+    needed for coefficient inference and IC-based lag selection."""
     beta, _, _, _ = np.linalg.lstsq(X, y, rcond=None)
     resid = y - X @ beta
     n, k = X.shape

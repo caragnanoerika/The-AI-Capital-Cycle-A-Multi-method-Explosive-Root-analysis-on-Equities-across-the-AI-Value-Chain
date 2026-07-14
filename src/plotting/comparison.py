@@ -19,7 +19,7 @@ import matplotlib.dates as mdates
 import pandas as pd
 from config import settings
 from src.io.data    import load_ticker_series
-from src.io.results import load_gsadf, load_svadf
+from src.io.results import load_gsadf, load_svadf, load_sadf_window
 
 # Canonical colours and labels for the two configured windows
 _W_COLORS = ["#e76f51", "#2a9d8f", "#6a0572"]   # orange, teal, purple
@@ -235,8 +235,6 @@ def plot_sadf_vs_svadf(ticker: str,
     svadf_windows : list of (start, end) pairs.  Defaults to [W1, W2] from settings.
     svadf_window  : legacy single-window argument; wrapped into a list.
     """
-    from src.io.results import load_sadf_window
-
     windows = _resolve_windows(svadf_window, svadf_windows)
 
     # Load windowed SADF and SV-ADF for each window (skip missing silently)

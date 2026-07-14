@@ -1,0 +1,32 @@
+﻿ticker,segment,has_ep,reject,n_ep,config,w_start,w_end
+ASML,1. Semiconductor Equipment,False,False,0,B1_W1_early,2021-08-01,2026-05-01
+AMAT,1. Semiconductor Equipment,False,False,0,B1_W1_early,2021-08-01,2026-05-01
+LRCX,1. Semiconductor Equipment,True,True,1,B1_W1_early,2021-08-01,2026-05-01
+NVDA,2. Chip Design (AI accelerators),True,True,1,B1_W1_early,2021-08-01,2026-05-01
+AMD,2. Chip Design (AI accelerators),False,False,0,B1_W1_early,2021-08-01,2026-05-01
+INTC,2. Chip Design (AI accelerators),False,False,0,B1_W1_early,2021-08-01,2026-05-01
+AVGO,2. Chip Design (AI accelerators),True,True,1,B1_W1_early,2021-08-01,2026-05-01
+MRVL,2. Chip Design (AI accelerators),False,False,0,B1_W1_early,2021-08-01,2026-05-01
+MU,3. Memory (HBM-relevant),True,True,1,B1_W1_early,2021-08-01,2026-05-01
+TSM,4. Foundry (leading-edge),True,True,1,B1_W1_early,2021-08-01,2026-05-01
+WDC,5. Storage (non-HBM control),True,True,1,B1_W1_early,2021-08-01,2026-05-01
+STX,5. Storage (non-HBM control),True,True,1,B1_W1_early,2021-08-01,2026-05-01
+ANET,6. Data-Centre Networking & Optical,True,True,1,B1_W1_early,2021-08-01,2026-05-01
+CSCO,6. Data-Centre Networking & Optical,False,False,0,B1_W1_early,2021-08-01,2026-05-01
+NOK,6. Data-Centre Networking & Optical,False,False,0,B1_W1_early,2021-08-01,2026-05-01
+CIEN,6. Data-Centre Networking & Optical,True,True,1,B1_W1_early,2021-08-01,2026-05-01
+EQIX,7. Data-Centre REITs (colocation & build-out),False,False,0,B1_W1_early,2021-08-01,2026-05-01
+DLR,7. Data-Centre REITs (colocation & build-out),False,False,0,B1_W1_early,2021-08-01,2026-05-01
+MSFT,8. Hyperscale Cloud,False,False,0,B1_W1_early,2021-08-01,2026-05-01
+AMZN,8. Hyperscale Cloud,False,False,0,B1_W1_early,2021-08-01,2026-05-01
+GOOGL,8. Hyperscale Cloud,True,True,1,B1_W1_early,2021-08-01,2026-05-01
+META,8. Hyperscale Cloud,False,False,0,B1_W1_early,2021-08-01,2026-05-01
+ORCL,8. Hyperscale Cloud,True,True,1,B1_W1_early,2021-08-01,2026-05-01
+IBM,9. Enterprise AI / Hybrid Cloud,True,True,1,B1_W1_early,2021-08-01,2026-05-01
+PLTR,10. Application & AI Platform Software,True,True,1,B1_W1_early,2021-08-01,2026-05-01
+SNOW,10. Application & AI Platform Software,False,False,0,B1_W1_early,2021-08-01,2026-05-01
+DDOG,10. Application & AI Platform Software,False,False,0,B1_W1_early,2021-08-01,2026-05-01
+AI,10. Application & AI Platform Software,False,False,0,B1_W1_early,2021-08-01,2026-05-01
+QCOM,11. Edge AI & Devices,False,False,0,B1_W1_early,2021-08-01,2026-05-01
+AAPL,11. Edge AI & Devices,False,False,0,B1_W1_early,2021-08-01,2026-05-01
+TSLA,11. Edge AI & Devices,False,False,0,B1_W1_early,2021-08-01,2026-05-01

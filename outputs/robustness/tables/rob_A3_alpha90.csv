@@ -1,0 +1,56 @@
+﻿ticker,segment,stat,cv,reject,n_ep,config,alpha
+ASML,1. Semiconductor Equipment,1.9961935063779255,2.138903366862315,False,3,A3_alpha90,0.9
+AMAT,1. Semiconductor Equipment,2.217708473470351,2.138903366862315,True,3,A3_alpha90,0.9
+LRCX,1. Semiconductor Equipment,4.522694891777681,2.138903366862315,True,4,A3_alpha90,0.9
+NVDA,2. Chip Design (AI accelerators),6.340155291518158,2.138903366862315,True,5,A3_alpha90,0.9
+AMD,2. Chip Design (AI accelerators),2.9018145370953694,2.138903366862315,True,2,A3_alpha90,0.9
+INTC,2. Chip Design (AI accelerators),3.894274122085147,2.138903366862315,True,1,A3_alpha90,0.9
+AVGO,2. Chip Design (AI accelerators),4.0022831668335215,2.138903366862315,True,2,A3_alpha90,0.9
+MRVL,2. Chip Design (AI accelerators),3.602804832793447,2.138903366862315,True,1,A3_alpha90,0.9
+MU,3. Memory (HBM-relevant),7.8633776042172165,2.138903366862315,True,3,A3_alpha90,0.9
+TSM,4. Foundry (leading-edge),2.9229963187959465,2.138903366862315,True,4,A3_alpha90,0.9
+WDC,5. Storage (non-HBM control),8.494036052944061,2.138903366862315,True,3,A3_alpha90,0.9
+STX,5. Storage (non-HBM control),7.94354458249899,2.138903366862315,True,3,A3_alpha90,0.9
+ANET,6. Data-Centre Networking & Optical,3.0351797639065077,2.138903366862315,True,3,A3_alpha90,0.9
+CSCO,6. Data-Centre Networking & Optical,1.37308800679829,2.138903366862315,False,3,A3_alpha90,0.9
+NOK,6. Data-Centre Networking & Optical,5.1410309300239,2.138903366862315,True,0,A3_alpha90,0.9
+CIEN,6. Data-Centre Networking & Optical,7.936650190042857,2.138903366862315,True,2,A3_alpha90,0.9
+EQIX,7. Data-Centre REITs (colocation & build-out),1.5452993927061522,2.138903366862315,False,0,A3_alpha90,0.9
+DLR,7. Data-Centre REITs (colocation & build-out),1.1136786853565857,2.138903366862315,False,0,A3_alpha90,0.9
+MSFT,8. Hyperscale Cloud,2.568293304112563,2.138903366862315,True,1,A3_alpha90,0.9
+AMZN,8. Hyperscale Cloud,2.317856612653562,2.138903366862315,True,1,A3_alpha90,0.9
+GOOGL,8. Hyperscale Cloud,2.746351596690522,2.138903366862315,True,2,A3_alpha90,0.9
+META,8. Hyperscale Cloud,2.1399076090792866,2.138903366862315,True,2,A3_alpha90,0.9
+ORCL,8. Hyperscale Cloud,3.494468345966319,2.138903366862315,True,4,A3_alpha90,0.9
+IBM,9. Enterprise AI / Hybrid Cloud,2.690892816903042,2.138903366862315,True,2,A3_alpha90,0.9
+PLTR,10. Application & AI Platform Software,6.718237854392863,2.134988459234429,True,1,A3_alpha90,0.9
+SNOW,10. Application & AI Platform Software,0.9728535132491414,2.134988459234438,False,0,A3_alpha90,0.9
+DDOG,10. Application & AI Platform Software,1.9443146733254326,2.139522616076892,False,2,A3_alpha90,0.9
+AI,10. Application & AI Platform Software,4.332648819936443,2.139452766088243,True,1,A3_alpha90,0.9
+QCOM,11. Edge AI & Devices,2.1397640486838263,2.138903366862315,True,2,A3_alpha90,0.9
+AAPL,11. Edge AI & Devices,2.4317073199020496,2.138903366862315,True,1,A3_alpha90,0.9
+TSLA,11. Edge AI & Devices,7.83321874592293,2.138903366862315,True,2,A3_alpha90,0.9
+CRWV,P. Specialised AI Cloud (neoclouds),3.306980048561014,1.8780308612465613,True,0,A3_alpha90,0.9
+NBIS,P. Specialised AI Cloud (neoclouds),1.8545783513512324,1.882240587917358,False,1,A3_alpha90,0.9
+CEG,P. Power & Grid (data-centre electricity),3.05019858755069,2.116261870613456,True,3,A3_alpha90,0.9
+VST,P. Power & Grid (data-centre electricity),8.49218639224872,2.1441274441368416,True,2,A3_alpha90,0.9
+ASX,P. Advanced Packaging (pure-play),6.1279919119149495,2.1441274441368416,True,2,A3_alpha90,0.9
+USO,C. AI-relevant: Energy (DC power proxy),4.785322891928645,2.138903366862315,True,2,A3_alpha90,0.9
+UNG,C. AI-relevant: Energy (DC power proxy),3.015538988982393,2.138903366862315,True,1,A3_alpha90,0.9
+BNO,C. AI-relevant: Energy (DC power proxy),5.11292428875649,2.138903366862315,True,1,A3_alpha90,0.9
+JJC,C. AI-relevant: Industrial metals (hardware inputs),2.0420397669865373,2.138903366862315,False,1,A3_alpha90,0.9
+PPLT,C. AI-relevant: Industrial metals (hardware inputs),5.4119974244134905,2.138903366862315,True,1,A3_alpha90,0.9
+PALL,C. AI-relevant: Industrial metals (hardware inputs),3.6970521336214626,2.138903366862315,True,2,A3_alpha90,0.9
+GLD,C. Confound: Precious metals (monetary),5.943643690673575,2.138903366862315,True,2,A3_alpha90,0.9
+SLV,C. Confound: Precious metals (monetary),12.099596302088546,2.138903366862315,True,1,A3_alpha90,0.9
+DBA,C. Placebo: Agriculture,2.9430750579844522,2.138903366862315,True,4,A3_alpha90,0.9
+WEAT,C. Placebo: Agriculture,4.521791568026655,2.138903366862315,True,1,A3_alpha90,0.9
+CORN,C. Placebo: Agriculture,3.7475942507233406,2.138903366862315,True,2,A3_alpha90,0.9
+SOYB,C. Placebo: Agriculture,3.822685159776912,2.138903366862315,True,2,A3_alpha90,0.9
+COW,C. Placebo: Livestock,2.948487430469716,2.138903366862315,True,1,A3_alpha90,0.9
+DBC,C. Benchmark: Broad commodity indices,3.8152691887026746,2.138903366862315,True,2,A3_alpha90,0.9
+GSG,C. Benchmark: Broad commodity indices,5.125905333433657,2.138903366862315,True,4,A3_alpha90,0.9
+PDBC,C. Benchmark: Broad commodity indices,3.971065498903618,2.138903366862315,True,2,A3_alpha90,0.9
+^IXIC,0. Index / Control,1.0420189395473032,2.138903366862315,False,0,A3_alpha90,0.9
+^SOX,0. Index / Control,2.206190167567886,2.138903366862315,True,3,A3_alpha90,0.9
+^GSPC,0. Index / Control,1.3468260675963586,2.138903366862315,False,1,A3_alpha90,0.9

@@ -1,0 +1,56 @@
+﻿ticker,segment,T,mw,stat,reject_90,reject_95,reject_99,n_ep_90,n_ep_95,n_ep_99,n_ep,reject,series,config
+ASML,1. Semiconductor Equipment,1590,87,1.436434578809139,False,False,False,1,0,0,0,False,log,A5_logprices
+AMAT,1. Semiconductor Equipment,1590,87,1.3982297067134,False,False,False,2,1,0,1,False,log,A5_logprices
+LRCX,1. Semiconductor Equipment,1590,87,1.5045638834119024,False,False,False,2,1,0,1,False,log,A5_logprices
+NVDA,2. Chip Design (AI accelerators),1590,87,2.1983681436761,True,False,False,3,1,0,1,False,log,A5_logprices
+AMD,2. Chip Design (AI accelerators),1590,87,1.9982509021904507,False,False,False,0,0,0,0,False,log,A5_logprices
+INTC,2. Chip Design (AI accelerators),1590,87,1.5446213050579658,False,False,False,0,0,0,0,False,log,A5_logprices
+AVGO,2. Chip Design (AI accelerators),1590,87,2.195337370100373,True,False,False,3,1,0,1,False,log,A5_logprices
+MRVL,2. Chip Design (AI accelerators),1590,87,2.1290401898291815,False,False,False,0,0,0,0,False,log,A5_logprices
+MU,3. Memory (HBM-relevant),1590,87,1.8294628598159528,False,False,False,3,3,1,3,False,log,A5_logprices
+TSM,4. Foundry (leading-edge),1590,87,1.901637599743324,False,False,False,3,0,0,0,False,log,A5_logprices
+WDC,5. Storage (non-HBM control),1590,87,2.759596728871307,True,True,False,3,1,1,1,True,log,A5_logprices
+STX,5. Storage (non-HBM control),1590,87,2.755315257174246,True,True,False,2,2,1,2,True,log,A5_logprices
+ANET,6. Data-Centre Networking & Optical,1590,87,2.5214251030410666,True,True,False,1,0,0,0,True,log,A5_logprices
+CSCO,6. Data-Centre Networking & Optical,1590,87,0.7655700116644533,False,False,False,1,0,0,0,False,log,A5_logprices
+NOK,6. Data-Centre Networking & Optical,1590,87,3.032691472885368,True,True,True,0,0,0,0,True,log,A5_logprices
+CIEN,6. Data-Centre Networking & Optical,1590,87,2.82361730715809,True,True,False,1,1,1,1,True,log,A5_logprices
+EQIX,7. Data-Centre REITs (colocation & build-out),1590,87,1.108027677527512,False,False,False,0,0,0,0,False,log,A5_logprices
+DLR,7. Data-Centre REITs (colocation & build-out),1590,87,1.3696422272668285,False,False,False,0,0,0,0,False,log,A5_logprices
+MSFT,8. Hyperscale Cloud,1590,87,1.123597773410643,False,False,False,1,0,0,0,False,log,A5_logprices
+AMZN,8. Hyperscale Cloud,1590,87,0.833238385628233,False,False,False,0,0,0,0,False,log,A5_logprices
+GOOGL,8. Hyperscale Cloud,1590,87,1.416382140286666,False,False,False,2,1,0,1,False,log,A5_logprices
+META,8. Hyperscale Cloud,1590,87,1.6784097407077154,False,False,False,1,0,0,0,False,log,A5_logprices
+ORCL,8. Hyperscale Cloud,1590,87,2.7025747733775303,True,True,False,4,1,0,1,True,log,A5_logprices
+IBM,9. Enterprise AI / Hybrid Cloud,1590,87,2.1018690475614585,False,False,False,3,2,0,2,False,log,A5_logprices
+PLTR,10. Application & AI Platform Software,1402,81,1.7426564263926736,False,False,False,2,2,1,2,False,log,A5_logprices
+SNOW,10. Application & AI Platform Software,1412,81,1.5817249035094403,False,False,False,1,1,0,1,False,log,A5_logprices
+DDOG,10. Application & AI Platform Software,1590,87,1.1658836388379041,False,False,False,2,0,0,0,False,log,A5_logprices
+AI,10. Application & AI Platform Software,1353,79,2.4344535968243943,True,True,False,1,1,0,1,True,log,A5_logprices
+QCOM,11. Edge AI & Devices,1590,87,1.2058066197240953,False,False,False,1,1,0,1,False,log,A5_logprices
+AAPL,11. Edge AI & Devices,1590,87,2.041315378065363,False,False,False,0,0,0,0,False,log,A5_logprices
+TSLA,11. Edge AI & Devices,1590,87,3.73512981804004,True,True,True,0,0,0,0,True,log,A5_logprices
+CRWV,P. Specialised AI Cloud (neoclouds),274,32,1.7713753279257163,False,False,False,0,0,0,0,False,log,A5_logprices
+NBIS,P. Specialised AI Cloud (neoclouds),382,39,0.8595029184526062,False,False,False,1,0,0,0,False,log,A5_logprices
+CEG,P. Power & Grid (data-centre electricity),1074,69,2.3673147161688677,True,True,False,2,2,1,2,True,log,A5_logprices
+VST,P. Power & Grid (data-centre electricity),1590,87,3.9016823998289443,True,True,True,1,2,2,2,True,log,A5_logprices
+ASX,P. Advanced Packaging (pure-play),1590,87,2.1225638167510796,False,False,False,2,1,0,1,False,log,A5_logprices
+USO,C. AI-relevant: Energy (DC power proxy),1590,87,3.6910700932252247,True,True,True,0,0,0,0,True,log,A5_logprices
+UNG,C. AI-relevant: Energy (DC power proxy),1590,87,2.096712003320808,False,False,False,2,2,1,2,False,log,A5_logprices
+BNO,C. AI-relevant: Energy (DC power proxy),1590,87,3.786987141650459,True,True,True,0,0,0,0,True,log,A5_logprices
+JJC,C. AI-relevant: Industrial metals (hardware inputs),1590,87,1.7346669828211467,False,False,False,1,1,0,1,False,log,A5_logprices
+PPLT,C. AI-relevant: Industrial metals (hardware inputs),1590,87,3.08099561896139,True,True,True,1,1,0,1,True,log,A5_logprices
+PALL,C. AI-relevant: Industrial metals (hardware inputs),1590,87,1.6036787643557924,False,False,False,2,0,0,0,False,log,A5_logprices
+GLD,C. Confound: Precious metals (monetary),1590,87,3.3703337081383338,True,True,True,1,1,1,1,True,log,A5_logprices
+SLV,C. Confound: Precious metals (monetary),1590,87,4.553590250130396,True,True,True,1,1,1,1,True,log,A5_logprices
+DBA,C. Placebo: Agriculture,1590,87,2.544454091584634,True,True,False,3,1,0,1,True,log,A5_logprices
+WEAT,C. Placebo: Agriculture,1590,87,3.363439795292023,True,True,True,1,0,0,0,True,log,A5_logprices
+CORN,C. Placebo: Agriculture,1590,87,2.54976818657499,True,True,False,2,2,0,2,True,log,A5_logprices
+SOYB,C. Placebo: Agriculture,1590,87,2.9329520067807566,True,True,True,2,1,1,1,True,log,A5_logprices
+COW,C. Placebo: Livestock,1590,87,0.6645614742547479,False,False,False,0,0,0,0,False,log,A5_logprices
+DBC,C. Benchmark: Broad commodity indices,1590,87,2.94451623204624,True,True,True,2,3,2,3,True,log,A5_logprices
+GSG,C. Benchmark: Broad commodity indices,1590,87,3.7129459923518313,True,True,True,3,2,0,2,True,log,A5_logprices
+PDBC,C. Benchmark: Broad commodity indices,1590,87,3.0723443979681853,True,True,True,2,3,2,3,True,log,A5_logprices
+^IXIC,0. Index / Control,1590,87,1.3433206599177743,False,False,False,0,0,0,0,False,log,A5_logprices
+^SOX,0. Index / Control,1590,87,1.0331956593285492,False,False,False,0,0,0,0,False,log,A5_logprices
+^GSPC,0. Index / Control,1590,87,1.5923507565732602,False,False,False,0,0,0,0,False,log,A5_logprices

@@ -1,0 +1,56 @@
+\begin{table}[htbp]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\caption{SV-ADF (Sarkar \& Wells 2026) results --- individual equities. W1 = post-ChatGPT window (2021-11-01 $\to$ 2026-05-01); W2 = pre-ChatGPT window (2020-01-01 $\to$ 2022-10-31). Detection is binary: analytical origination threshold log($\tau$)/10, min.\ 60 consecutive steps. Collapse types: \textit{bridge} = collapsed within 90-day window; \textit{post\_bridge} = screen + $R$-run rule; \textit{end\_of\_sample} = extends to window end.}
+\label{tab:svadf_equity}
+\begin{tabular}{llp{3cm}r l cc r l  r l cc r l}
+\toprule
+ & & & \multicolumn{6}{c}{\textbf{W1 post-ChatGPT (2021-11-01 $\to$ 2026-05-01)}} & \multicolumn{6}{c}{\textbf{W2 pre-ChatGPT (2020-01-01 $\to$ 2022-10-31)}} \\
+\cmidrule(lr){4-9} \cmidrule(lr){10-15}
+Segment & Ticker & Company & $T$ & Det. & Start & End & Dur. & Collapse & $T$ & Det. & Start & End & Dur. & Collapse \\
+\midrule
+1. Semiconductor Equipment & ASML & ASML --- EUV lithography monopoly & 1128 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} & 714 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} \\
+1. Semiconductor Equipment & AMAT & Applied Materials --- wafer fab equipment & 1128 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} & 714 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} \\
+1. Semiconductor Equipment & LRCX & Lam Research --- etch/deposition equipment & 1128 & \textcolor{teal}{\textbf{Yes}} & 2025-11 & 2026-04 & 157 & \textit{end\_of\_sample} & 714 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} \\
+\midrule
+2. Chip Design (AI accelerators) & NVDA & Nvidia --- GPU/AI accelerators, CUDA & 1128 & \textcolor{teal}{\textbf{Yes}} & 2024-01 & 2024-07 & 189 & \textit{post\_bridge} & 714 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} \\
+2. Chip Design (AI accelerators) & AMD & Advanced Micro Devices --- Instinct/EPYC & 1128 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} & 714 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} \\
+2. Chip Design (AI accelerators) & INTC & Intel --- CPUs, Gaudi accelerators & 1128 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} & 714 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} \\
+2. Chip Design (AI accelerators) & AVGO & Broadcom --- networking + custom AI ASICs & 1128 & \textcolor{teal}{\textbf{Yes}} & 2024-01 & 2024-04 & 91 & \textit{post\_bridge} & 714 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} \\
+2. Chip Design (AI accelerators) & MRVL & Marvell --- custom silicon, AI networking & 1128 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} & 714 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} \\
+\midrule
+3. Memory (HBM-relevant) & MU & Micron --- DRAM/HBM & 1128 & \textcolor{teal}{\textbf{Yes}} & 2025-10 & 2026-04 & 211 & \textit{end\_of\_sample} & 714 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} \\
+\midrule
+4. Foundry (leading-edge) & TSM & TSMC --- leading-edge foundry + advanced packaging (CoWoS) & 1128 & \textcolor{teal}{\textbf{Yes}} & 2025-09 & 2025-12 & 90 & \textit{post\_bridge} & 714 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} \\
+\midrule
+5. Storage (non-HBM control) & WDC & Western Digital --- HDD/NAND storage (control) & 1128 & \textcolor{teal}{\textbf{Yes}} & 2025-08 & 2026-04 & 248 & \textit{end\_of\_sample} & 714 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} \\
+5. Storage (non-HBM control) & STX & Seagate --- HDD storage (control) & 1128 & \textcolor{teal}{\textbf{Yes}} & 2025-06 & 2026-04 & 308 & \textit{end\_of\_sample} & 714 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} \\
+\midrule
+6. Data-Centre Networking \& Optical & ANET & Arista Networks --- DC switching & 1128 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} & 714 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} \\
+6. Data-Centre Networking \& Optical & CSCO & Cisco --- networking incumbent (dot-com analog) & 1128 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} & 714 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} \\
+6. Data-Centre Networking \& Optical & NOK & Nokia --- telecom networks & 1128 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} & 714 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} \\
+6. Data-Centre Networking \& Optical & CIEN & Ciena --- optical networking & 1128 & \textcolor{teal}{\textbf{Yes}} & 2025-09 & 2026-04 & 234 & \textit{end\_of\_sample} & 714 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} \\
+\midrule
+7. Data-Centre REITs (colocation \& build-out) & EQIX & Equinix --- colocation & 1128 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} & 714 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} \\
+7. Data-Centre REITs (colocation \& build-out) & DLR & Digital Realty --- data-centre REIT & 1128 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} & 714 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} \\
+\midrule
+8. Hyperscale Cloud & MSFT & Microsoft --- Azure, OpenAI partner & 1128 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} & 714 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} \\
+8. Hyperscale Cloud & AMZN & Amazon --- AWS, Anthropic partner & 1128 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} & 714 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} \\
+8. Hyperscale Cloud & GOOGL & Alphabet --- Google Cloud, Gemini & 1128 & \textcolor{teal}{\textbf{Yes}} & 2025-10 & 2026-02 & 116 & \textit{post\_bridge} & 714 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} \\
+8. Hyperscale Cloud & META & Meta --- Llama, AI advertising & 1128 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} & 714 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} \\
+8. Hyperscale Cloud & ORCL & Oracle --- OCI, AI infrastructure & 1128 & \textcolor{teal}{\textbf{Yes}} & 2024-09 & 2024-12 & 90 & \textit{post\_bridge} & 714 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} \\
+\midrule
+9. Enterprise AI / Hybrid Cloud & IBM & IBM --- enterprise AI, hybrid cloud & 1128 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} & 714 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} \\
+\midrule
+10. Application \& AI Platform Software & PLTR & Palantir --- enterprise/government AI & 1128 & \textcolor{teal}{\textbf{Yes}} & 2024-10 & 2025-02 & 145 & \textit{post\_bridge} & 526 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} \\
+10. Application \& AI Platform Software & SNOW & Snowflake --- data cloud & 1128 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} & 536 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} \\
+10. Application \& AI Platform Software & DDOG & Datadog --- observability with AI & 1128 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} & 714 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} \\
+10. Application \& AI Platform Software & AI & C3.ai --- enterprise AI platform & 1128 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} & 477 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} \\
+\midrule
+11. Edge AI \& Devices & QCOM & Qualcomm --- mobile/edge AI silicon & 1128 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} & 714 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} \\
+11. Edge AI \& Devices & AAPL & Apple --- devices, on-device AI & 1128 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} & 714 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} \\
+11. Edge AI \& Devices & TSLA & Tesla --- autonomy/robotics narrative (out-of-scope sentinel) & 1128 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} & 714 & \textcolor{gray}{No} & --- & --- & --- & \textit{---} \\
+\bottomrule
+\end{tabular}
+\end{table}

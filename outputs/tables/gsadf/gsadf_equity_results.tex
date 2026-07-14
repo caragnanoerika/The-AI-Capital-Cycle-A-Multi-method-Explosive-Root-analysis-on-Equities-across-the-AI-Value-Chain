@@ -1,0 +1,57 @@
+\begin{table}[htbp]
+\centering
+\small
+\caption{GSADF test results — individual equities (2020--2026, MC 999 reps, seed 42, 95\% critical value)}
+\label{tab:gsadf_equity}
+\begin{tabular}{llp{3.8cm}rrrllrp{4cm}}
+\toprule
+Segment & Ticker & Company & T & GSADF stat & CV (95\%) & p-value & Decision & \# Episodes & Episode periods \\
+\midrule
+1. Semiconductor Equipment & ASML & ASML --- EUV lithography monopoly & 1842 & 1.996 & 2.39 & > 0.10 & \textcolor{gray}{Fail to reject} & 0 & --- \\
+1. Semiconductor Equipment & AMAT & Applied Materials --- wafer fab equipment & 1842 & 2.218 & 2.39 & < 0.10 & \textcolor{gray}{Fail to reject} & 0 & --- \\
+1. Semiconductor Equipment & LRCX & Lam Research --- etch/deposition equipment & 1842 & \textbf{4.523} & 2.39 & < 0.01 & \textcolor{red!60!black}{Reject} & 3 & 2019-10 $\to$ 2020-02; 2020-12 $\to$ 2021-04; 2025-09 $\to$ 2026-04 \\
+\midrule
+2. Chip Design (AI accelerators) & NVDA & Nvidia --- GPU/AI accelerators, CUDA & 1842 & \textbf{6.34} & 2.39 & < 0.01 & \textcolor{red!60!black}{Reject} & 4 & 2020-07 $\to$ 2020-11; 2021-06 $\to$ 2022-01; 2023-03 $\to$ 2025-02; 2025-06 $\to$ 2026-04 \\
+2. Chip Design (AI accelerators) & AMD & Advanced Micro Devices --- Instinct/EPYC & 1842 & \textbf{2.902} & 2.39 & < 0.01 & \textcolor{red!60!black}{Reject} & 1 & 2025-07 $\to$ 2025-11 \\
+2. Chip Design (AI accelerators) & INTC & Intel --- CPUs, Gaudi accelerators & 1842 & \textbf{3.894} & 2.39 & < 0.01 & \textcolor{red!60!black}{Reject} & 0 & --- \\
+2. Chip Design (AI accelerators) & AVGO & Broadcom --- networking + custom AI ASICs & 1842 & \textbf{4.002} & 2.39 & < 0.01 & \textcolor{red!60!black}{Reject} & 3 & 2023-05 $\to$ 2023-08; 2023-11 $\to$ 2025-02; 2025-05 $\to$ 2026-04 \\
+2. Chip Design (AI accelerators) & MRVL & Marvell --- custom silicon, AI networking & 1842 & \textbf{3.603} & 2.39 & < 0.01 & \textcolor{red!60!black}{Reject} & 0 & --- \\
+\midrule
+3. Memory (HBM-relevant) & MU & Micron --- DRAM/HBM & 1842 & \textbf{7.863} & 2.39 & < 0.01 & \textcolor{red!60!black}{Reject} & 3 & 2020-11 $\to$ 2021-03; 2024-03 $\to$ 2024-07; 2025-09 $\to$ 2026-04 \\
+\midrule
+4. Foundry (leading-edge) & TSM & TSMC --- leading-edge foundry + advanced packaging (CoWoS) & 1842 & \textbf{2.923} & 2.39 & < 0.01 & \textcolor{red!60!black}{Reject} & 5 & 2019-10 $\to$ 2020-01; 2020-07 $\to$ 2021-04; 2024-01 $\to$ 2024-07; 2024-10 $\to$ 2025-01; 2025-09 $\to$ 2026-04 \\
+\midrule
+5. Storage (non-HBM control) & WDC & Western Digital --- HDD/NAND storage (control) & 1842 & \textbf{8.494} & 2.39 & < 0.01 & \textcolor{red!60!black}{Reject} & 2 & 2024-01 $\to$ 2024-07; 2025-07 $\to$ 2026-04 \\
+5. Storage (non-HBM control) & STX & Seagate --- HDD storage (control) & 1842 & \textbf{7.944} & 2.39 & < 0.01 & \textcolor{red!60!black}{Reject} & 2 & 2020-12 $\to$ 2021-06; 2025-06 $\to$ 2026-04 \\
+\midrule
+6. Data-Centre Networking \& Optical & ANET & Arista Networks --- DC switching & 1842 & \textbf{3.035} & 2.39 & < 0.01 & \textcolor{red!60!black}{Reject} & 2 & 2023-12 $\to$ 2025-02; 2025-08 $\to$ 2025-11 \\
+6. Data-Centre Networking \& Optical & CSCO & Cisco --- networking incumbent (dot-com analog) & 1842 & 1.373 & 2.39 & > 0.10 & \textcolor{gray}{Fail to reject} & 0 & --- \\
+6. Data-Centre Networking \& Optical & NOK & Nokia --- telecom networks & 1842 & \textbf{5.141} & 2.39 & < 0.01 & \textcolor{red!60!black}{Reject} & 0 & --- \\
+6. Data-Centre Networking \& Optical & CIEN & Ciena --- optical networking & 1842 & \textbf{7.937} & 2.39 & < 0.01 & \textcolor{red!60!black}{Reject} & 1 & 2025-09 $\to$ 2026-04 \\
+\midrule
+7. Data-Centre REITs (colocation \& build-out) & EQIX & Equinix --- colocation & 1842 & 1.545 & 2.39 & > 0.10 & \textcolor{gray}{Fail to reject} & 0 & --- \\
+7. Data-Centre REITs (colocation \& build-out) & DLR & Digital Realty --- data-centre REIT & 1842 & 1.114 & 2.39 & > 0.10 & \textcolor{gray}{Fail to reject} & 0 & --- \\
+\midrule
+8. Hyperscale Cloud & MSFT & Microsoft --- Azure, OpenAI partner & 1842 & \textbf{2.568} & 2.39 & < 0.05 & \textcolor{red!60!black}{Reject} & 0 & --- \\
+8. Hyperscale Cloud & AMZN & Amazon --- AWS, Anthropic partner & 1842 & 2.318 & 2.39 & < 0.10 & \textcolor{gray}{Fail to reject} & 0 & --- \\
+8. Hyperscale Cloud & GOOGL & Alphabet --- Google Cloud, Gemini & 1842 & \textbf{2.746} & 2.39 & < 0.05 & \textcolor{red!60!black}{Reject} & 2 & 2021-04 $\to$ 2021-12; 2025-09 $\to$ 2026-04 \\
+8. Hyperscale Cloud & META & Meta --- Llama, AI advertising & 1842 & 2.14 & 2.39 & < 0.10 & \textcolor{gray}{Fail to reject} & 0 & --- \\
+8. Hyperscale Cloud & ORCL & Oracle --- OCI, AI infrastructure & 1842 & \textbf{3.494} & 2.39 & < 0.01 & \textcolor{red!60!black}{Reject} & 4 & 2021-03 $\to$ 2021-12; 2023-06 $\to$ 2023-09; 2024-09 $\to$ 2025-01; 2025-06 $\to$ 2025-10 \\
+\midrule
+9. Enterprise AI / Hybrid Cloud & IBM & IBM --- enterprise AI, hybrid cloud & 1842 & \textbf{2.691} & 2.438 & < 0.05 & \textcolor{red!60!black}{Reject} & 2 & 2023-11 $\to$ 2024-04; 2024-09 $\to$ 2026-02 \\
+\midrule
+10. Application \& AI Platform Software & PLTR & Palantir --- enterprise/government AI & 1402 & \textbf{6.718} & 2.365 & < 0.01 & \textcolor{red!60!black}{Reject} & 1 & 2024-09 $\to$ 2026-01 \\
+10. Application \& AI Platform Software & SNOW & Snowflake --- data cloud & 1412 & 0.973 & 2.359 & > 0.10 & \textcolor{gray}{Fail to reject} & 0 & --- \\
+10. Application \& AI Platform Software & DDOG & Datadog --- observability with AI & 1662 & 1.944 & 2.407 & > 0.10 & \textcolor{gray}{Fail to reject} & 0 & --- \\
+10. Application \& AI Platform Software & AI & C3.ai --- enterprise AI platform & 1353 & \textbf{4.333} & 2.364 & < 0.01 & \textcolor{red!60!black}{Reject} & 0 & --- \\
+\midrule
+11. Edge AI \& Devices & QCOM & Qualcomm --- mobile/edge AI silicon & 1842 & 2.14 & 2.39 & < 0.10 & \textcolor{gray}{Fail to reject} & 0 & --- \\
+11. Edge AI \& Devices & AAPL & Apple --- devices, on-device AI & 1842 & \textbf{2.432} & 2.39 & < 0.05 & \textcolor{red!60!black}{Reject} & 1 & 2019-10 $\to$ 2020-02 \\
+11. Edge AI \& Devices & TSLA & Tesla --- autonomy/robotics narrative (out-of-scope sentinel) & 1842 & \textbf{7.833} & 2.39 & < 0.01 & \textcolor{red!60!black}{Reject} & 2 & 2019-10 $\to$ 2020-03; 2020-06 $\to$ 2021-04 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\footnotesize
+\item \textit{Notes:} T = sample size (trading days). GSADF stat = supremum of the backward-SADF sequence. CV (95\%) = Monte Carlo 95th-percentile critical value. p-value brackets are derived from the q90/q95/q99 MC quantiles. Episode periods are date-stamped using the BSADF $>$ CV crossing rule (min.\ duration 60 days, merge gap 42 days).
+\end{tablenotes}
+\end{table}

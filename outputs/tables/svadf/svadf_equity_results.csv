@@ -1,0 +1,32 @@
+Segment,Ticker,Company,W1 T,W1 Detected,W1 Start,W1 End,W1 Duration,W1 Collapse,W2 T,W2 Detected,W2 Start,W2 End,W2 Duration,W2 Collapse
+1. Semiconductor Equipment,ASML,ASML — EUV lithography monopoly,1128,No,—,—,—,—,714,No,—,—,—,—
+1. Semiconductor Equipment,AMAT,Applied Materials — wafer fab equipment,1128,No,—,—,—,—,714,No,—,—,—,—
+1. Semiconductor Equipment,LRCX,Lam Research — etch/deposition equipment,1128,Yes,2025-11,2026-04,157,end_of_sample,714,No,—,—,—,—
+2. Chip Design (AI accelerators),NVDA,"Nvidia — GPU/AI accelerators, CUDA",1128,Yes,2024-01,2024-07,189,post_bridge,714,No,—,—,—,—
+2. Chip Design (AI accelerators),AMD,Advanced Micro Devices — Instinct/EPYC,1128,No,—,—,—,—,714,No,—,—,—,—
+2. Chip Design (AI accelerators),INTC,"Intel — CPUs, Gaudi accelerators",1128,No,—,—,—,—,714,No,—,—,—,—
+2. Chip Design (AI accelerators),AVGO,Broadcom — networking + custom AI ASICs,1128,Yes,2024-01,2024-04,91,post_bridge,714,No,—,—,—,—
+2. Chip Design (AI accelerators),MRVL,"Marvell — custom silicon, AI networking",1128,No,—,—,—,—,714,No,—,—,—,—
+3. Memory (HBM-relevant),MU,Micron — DRAM/HBM,1128,Yes,2025-10,2026-04,211,end_of_sample,714,No,—,—,—,—
+4. Foundry (leading-edge),TSM,TSMC — leading-edge foundry + advanced packaging (CoWoS),1128,Yes,2025-09,2025-12,90,post_bridge,714,No,—,—,—,—
+5. Storage (non-HBM control),WDC,Western Digital — HDD/NAND storage (control),1128,Yes,2025-08,2026-04,248,end_of_sample,714,No,—,—,—,—
+5. Storage (non-HBM control),STX,Seagate — HDD storage (control),1128,Yes,2025-06,2026-04,308,end_of_sample,714,No,—,—,—,—
+6. Data-Centre Networking & Optical,ANET,Arista Networks — DC switching,1128,No,—,—,—,—,714,No,—,—,—,—
+6. Data-Centre Networking & Optical,CSCO,Cisco — networking incumbent (dot-com analog),1128,No,—,—,—,—,714,No,—,—,—,—
+6. Data-Centre Networking & Optical,NOK,Nokia — telecom networks,1128,No,—,—,—,—,714,No,—,—,—,—
+6. Data-Centre Networking & Optical,CIEN,Ciena — optical networking,1128,Yes,2025-09,2026-04,234,end_of_sample,714,No,—,—,—,—
+7. Data-Centre REITs (colocation & build-out),EQIX,Equinix — colocation,1128,No,—,—,—,—,714,No,—,—,—,—
+7. Data-Centre REITs (colocation & build-out),DLR,Digital Realty — data-centre REIT,1128,No,—,—,—,—,714,No,—,—,—,—
+8. Hyperscale Cloud,MSFT,"Microsoft — Azure, OpenAI partner",1128,No,—,—,—,—,714,No,—,—,—,—
+8. Hyperscale Cloud,AMZN,"Amazon — AWS, Anthropic partner",1128,No,—,—,—,—,714,No,—,—,—,—
+8. Hyperscale Cloud,GOOGL,"Alphabet — Google Cloud, Gemini",1128,Yes,2025-10,2026-02,116,post_bridge,714,No,—,—,—,—
+8. Hyperscale Cloud,META,"Meta — Llama, AI advertising",1128,No,—,—,—,—,714,No,—,—,—,—
+8. Hyperscale Cloud,ORCL,"Oracle — OCI, AI infrastructure",1128,Yes,2024-09,2024-12,90,post_bridge,714,No,—,—,—,—
+9. Enterprise AI / Hybrid Cloud,IBM,"IBM — enterprise AI, hybrid cloud",1128,No,—,—,—,—,714,No,—,—,—,—
+10. Application & AI Platform Software,PLTR,Palantir — enterprise/government AI,1128,Yes,2024-10,2025-02,145,post_bridge,526,No,—,—,—,—
+10. Application & AI Platform Software,SNOW,Snowflake — data cloud,1128,No,—,—,—,—,536,No,—,—,—,—
+10. Application & AI Platform Software,DDOG,Datadog — observability with AI,1128,No,—,—,—,—,714,No,—,—,—,—
+10. Application & AI Platform Software,AI,C3.ai — enterprise AI platform,1128,No,—,—,—,—,477,No,—,—,—,—
+11. Edge AI & Devices,QCOM,Qualcomm — mobile/edge AI silicon,1128,No,—,—,—,—,714,No,—,—,—,—
+11. Edge AI & Devices,AAPL,"Apple — devices, on-device AI",1128,No,—,—,—,—,714,No,—,—,—,—
+11. Edge AI & Devices,TSLA,Tesla — autonomy/robotics narrative (out-of-scope sentinel),1128,No,—,—,—,—,714,No,—,—,—,—

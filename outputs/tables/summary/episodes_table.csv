@@ -1,0 +1,100 @@
+Ticker,Segment,Method,Window,Start,End,Duration (days),Collapse type
+GLD,C. Confound: Precious metals (monetary),GSADF,2019-01-02 → 2026-04-30,2019-06-20,2019-09-24,96,
+TSM,4. Foundry (leading-edge),GSADF,2019-01-02 → 2026-04-30,2019-10-15,2020-01-17,94,
+LRCX,1. Semiconductor Equipment,GSADF,2019-01-02 → 2026-04-30,2019-10-25,2020-02-19,117,
+TSLA,11. Edge AI & Devices,GSADF,2019-01-02 → 2026-04-30,2019-10-25,2020-03-05,132,
+AAPL,11. Edge AI & Devices,GSADF,2019-01-02 → 2026-04-30,2019-10-28,2020-02-21,116,
+USO,C. AI-relevant: Energy (DC power proxy),GSADF,2019-01-02 → 2026-04-30,2020-02-28,2020-06-26,119,
+DDOG,10. Application & AI Platform Software,GSADF,2019-09-19 → 2026-04-30,2020-05-12,2020-08-05,85,
+TSLA,11. Edge AI & Devices,GSADF,2019-01-02 → 2026-04-30,2020-06-08,2021-04-13,309,
+AMZN,8. Hyperscale Cloud,GSADF,2019-01-02 → 2026-04-30,2020-06-22,2020-10-13,113,
+NVDA,2. Chip Design (AI accelerators),GSADF,2019-01-02 → 2026-04-30,2020-07-08,2020-11-06,121,
+TSM,4. Foundry (leading-edge),GSADF,2019-01-02 → 2026-04-30,2020-07-24,2021-04-01,251,
+SOYB,C. Placebo: Agriculture,GSADF,2019-01-02 → 2026-04-30,2020-09-08,2021-08-18,344,
+QCOM,11. Edge AI & Devices,GSADF,2019-01-02 → 2026-04-30,2020-11-05,2021-02-02,89,
+SOYB,C. Placebo: Agriculture,SV-ADF W2,2020-01-01_2022-10-31,2020-11-10,2021-02-08,90,post_bridge
+AMAT,1. Semiconductor Equipment,GSADF,2019-01-02 → 2026-04-30,2020-11-23,2021-06-30,219,
+MU,3. Memory (HBM-relevant),GSADF,2019-01-02 → 2026-04-30,2020-11-23,2021-03-17,114,
+STX,5. Storage (non-HBM control),GSADF,2019-01-02 → 2026-04-30,2020-12-01,2021-06-11,192,
+LRCX,1. Semiconductor Equipment,GSADF,2019-01-02 → 2026-04-30,2020-12-02,2021-04-12,131,
+ASX,P. Advanced Packaging (pure-play),GSADF,2020-01-02 → 2026-04-30,2020-12-03,2021-03-22,109,
+CORN,C. Placebo: Agriculture,GSADF,2019-01-02 → 2026-04-30,2020-12-29,2021-06-16,169,
+DBA,C. Placebo: Agriculture,GSADF,2019-01-02 → 2026-04-30,2020-12-31,2021-08-18,230,
+ASML,1. Semiconductor Equipment,GSADF,2019-01-02 → 2026-04-30,2021-01-04,2021-11-19,319,
+DBC,C. Benchmark: Broad commodity indices,GSADF,2019-01-02 → 2026-04-30,2021-01-08,2021-07-30,203,
+PDBC,C. Benchmark: Broad commodity indices,GSADF,2019-01-02 → 2026-04-30,2021-01-08,2021-07-30,203,
+JJC,C. AI-relevant: Industrial metals (hardware inputs),GSADF,2019-01-02 → 2026-04-30,2021-02-18,2021-07-26,158,
+ORCL,8. Hyperscale Cloud,GSADF,2019-01-02 → 2026-04-30,2021-03-08,2021-12-16,283,
+GOOGL,8. Hyperscale Cloud,GSADF,2019-01-02 → 2026-04-30,2021-04-09,2021-12-10,245,
+NVDA,2. Chip Design (AI accelerators),GSADF,2019-01-02 → 2026-04-30,2021-06-17,2022-01-04,201,
+UNG,C. AI-relevant: Energy (DC power proxy),GSADF,2019-01-02 → 2026-04-30,2021-06-29,2021-10-25,118,
+PDBC,C. Benchmark: Broad commodity indices,GSADF,2019-01-02 → 2026-04-30,2021-10-01,2022-07-01,273,
+DBC,C. Benchmark: Broad commodity indices,GSADF,2019-01-02 → 2026-04-30,2021-10-04,2022-07-01,270,
+DBC,C. Benchmark: Broad commodity indices,SV-ADF W2,2020-01-01_2022-10-31,2022-01-18,2022-04-18,90,post_bridge
+PDBC,C. Benchmark: Broad commodity indices,SV-ADF W2,2020-01-01_2022-10-31,2022-01-18,2022-04-18,90,post_bridge
+GSG,C. Benchmark: Broad commodity indices,GSADF,2019-01-02 → 2026-04-30,2022-01-31,2022-06-28,148,
+SOYB,C. Placebo: Agriculture,GSADF,2019-01-02 → 2026-04-30,2022-01-31,2022-06-22,142,
+BNO,C. AI-relevant: Energy (DC power proxy),GSADF,2019-01-02 → 2026-04-30,2022-02-04,2022-06-16,132,
+USO,C. AI-relevant: Energy (DC power proxy),GSADF,2019-01-02 → 2026-04-30,2022-02-04,2022-06-16,132,
+DBA,C. Placebo: Agriculture,GSADF,2019-01-02 → 2026-04-30,2022-02-07,2022-06-06,119,
+CORN,C. Placebo: Agriculture,GSADF,2019-01-02 → 2026-04-30,2022-02-14,2022-06-22,128,
+WEAT,C. Placebo: Agriculture,GSADF,2019-01-02 → 2026-04-30,2022-02-24,2022-05-27,92,
+NVDA,2. Chip Design (AI accelerators),GSADF,2019-01-02 → 2026-04-30,2023-03-20,2025-02-21,704,
+META,8. Hyperscale Cloud,GSADF,2019-01-02 → 2026-04-30,2023-05-01,2023-08-08,99,
+AVGO,2. Chip Design (AI accelerators),GSADF,2019-01-02 → 2026-04-30,2023-05-26,2023-08-31,97,
+CEG,P. Power & Grid (data-centre electricity),GSADF,2022-01-19 → 2026-04-30,2023-06-01,2023-11-28,180,
+ORCL,8. Hyperscale Cloud,GSADF,2019-01-02 → 2026-04-30,2023-06-09,2023-09-11,94,
+AVGO,2. Chip Design (AI accelerators),GSADF,2019-01-02 → 2026-04-30,2023-11-10,2025-02-21,469,
+IBM,9. Enterprise AI / Hybrid Cloud,GSADF,2019-01-02 → 2026-04-30,2023-11-28,2024-04-09,133,
+ANET,6. Data-Centre Networking & Optical,GSADF,2019-01-02 → 2026-04-30,2023-12-11,2025-02-18,435,
+VST,P. Power & Grid (data-centre electricity),GSADF,2020-01-02 → 2026-04-30,2023-12-13,2025-02-20,435,
+AVGO,2. Chip Design (AI accelerators),SV-ADF W1,2021-11-01_2026-05-01,2024-01-08,2024-04-08,91,post_bridge
+NVDA,2. Chip Design (AI accelerators),SV-ADF W1,2021-11-01_2026-05-01,2024-01-10,2024-07-17,189,post_bridge
+META,8. Hyperscale Cloud,GSADF,2019-01-02 → 2026-04-30,2024-01-18,2024-07-10,174,
+TSM,4. Foundry (leading-edge),GSADF,2019-01-02 → 2026-04-30,2024-01-24,2024-07-18,176,
+VST,P. Power & Grid (data-centre electricity),SV-ADF W1,2021-11-01_2026-05-01,2024-01-25,2024-07-09,166,post_bridge
+WDC,5. Storage (non-HBM control),GSADF,2019-01-02 → 2026-04-30,2024-01-25,2024-07-10,167,
+CEG,P. Power & Grid (data-centre electricity),GSADF,2022-01-19 → 2026-04-30,2024-02-27,2024-07-15,139,
+CEG,P. Power & Grid (data-centre electricity),SV-ADF W1,2021-11-01_2026-05-01,2024-02-27,2024-05-29,92,post_bridge
+DBA,C. Placebo: Agriculture,GSADF,2019-01-02 → 2026-04-30,2024-03-15,2024-06-14,91,
+MU,3. Memory (HBM-relevant),GSADF,2019-01-02 → 2026-04-30,2024-03-21,2024-07-10,111,
+GLD,C. Confound: Precious metals (monetary),GSADF,2019-01-02 → 2026-04-30,2024-08-26,2026-04-30,612,
+PLTR,10. Application & AI Platform Software,GSADF,2020-09-30 → 2026-04-30,2024-09-09,2026-01-27,505,
+IBM,9. Enterprise AI / Hybrid Cloud,GSADF,2019-01-02 → 2026-04-30,2024-09-10,2026-02-02,510,
+ORCL,8. Hyperscale Cloud,SV-ADF W1,2021-11-01_2026-05-01,2024-09-12,2024-12-11,90,post_bridge
+ORCL,8. Hyperscale Cloud,GSADF,2019-01-02 → 2026-04-30,2024-09-13,2025-01-24,133,
+META,8. Hyperscale Cloud,GSADF,2019-01-02 → 2026-04-30,2024-09-27,2025-02-26,152,
+PLTR,10. Application & AI Platform Software,SV-ADF W1,2021-11-01_2026-05-01,2024-10-03,2025-02-25,145,post_bridge
+CSCO,6. Data-Centre Networking & Optical,GSADF,2019-01-02 → 2026-04-30,2024-10-16,2025-02-20,127,
+TSM,4. Foundry (leading-edge),GSADF,2019-01-02 → 2026-04-30,2024-10-17,2025-01-24,99,
+GLD,C. Confound: Precious metals (monetary),SV-ADF W1,2021-11-01_2026-05-01,2025-01-28,2025-05-07,99,post_bridge
+NBIS,P. Specialised AI Cloud (neoclouds),GSADF,2024-10-21 → 2026-04-30,2025-05-14,2025-10-31,170,
+AVGO,2. Chip Design (AI accelerators),GSADF,2019-01-02 → 2026-04-30,2025-05-29,2026-04-30,336,
+VST,P. Power & Grid (data-centre electricity),GSADF,2020-01-02 → 2026-04-30,2025-06-02,2025-10-16,136,
+PPLT,C. AI-relevant: Industrial metals (hardware inputs),GSADF,2019-01-02 → 2026-04-30,2025-06-06,2026-02-27,266,
+ORCL,8. Hyperscale Cloud,GSADF,2019-01-02 → 2026-04-30,2025-06-13,2025-10-27,136,
+STX,5. Storage (non-HBM control),GSADF,2019-01-02 → 2026-04-30,2025-06-24,2026-04-30,310,
+NVDA,2. Chip Design (AI accelerators),GSADF,2019-01-02 → 2026-04-30,2025-06-25,2026-04-30,309,
+STX,5. Storage (non-HBM control),SV-ADF W1,2021-11-01_2026-05-01,2025-06-26,2026-04-30,308,end_of_sample
+AMD,2. Chip Design (AI accelerators),GSADF,2019-01-02 → 2026-04-30,2025-07-28,2025-11-12,107,
+WDC,5. Storage (non-HBM control),GSADF,2019-01-02 → 2026-04-30,2025-07-30,2026-04-30,274,
+ANET,6. Data-Centre Networking & Optical,GSADF,2019-01-02 → 2026-04-30,2025-08-06,2025-11-04,90,
+WDC,5. Storage (non-HBM control),SV-ADF W1,2021-11-01_2026-05-01,2025-08-25,2026-04-30,248,end_of_sample
+GOOGL,8. Hyperscale Cloud,GSADF,2019-01-02 → 2026-04-30,2025-09-03,2026-04-30,239,
+CIEN,6. Data-Centre Networking & Optical,SV-ADF W1,2021-11-01_2026-05-01,2025-09-08,2026-04-30,234,end_of_sample
+CIEN,6. Data-Centre Networking & Optical,GSADF,2019-01-02 → 2026-04-30,2025-09-09,2026-04-30,233,
+TSM,4. Foundry (leading-edge),SV-ADF W1,2021-11-01_2026-05-01,2025-09-09,2025-12-08,90,post_bridge
+TSM,4. Foundry (leading-edge),GSADF,2019-01-02 → 2026-04-30,2025-09-10,2026-04-30,232,
+MU,3. Memory (HBM-relevant),GSADF,2019-01-02 → 2026-04-30,2025-09-12,2026-04-30,230,
+LRCX,1. Semiconductor Equipment,GSADF,2019-01-02 → 2026-04-30,2025-09-19,2026-04-30,223,
+SLV,C. Confound: Precious metals (monetary),SV-ADF W1,2021-11-01_2026-05-01,2025-09-19,2026-03-02,164,post_bridge
+SLV,C. Confound: Precious metals (monetary),GSADF,2019-01-02 → 2026-04-30,2025-09-25,2026-03-10,166,
+MU,3. Memory (HBM-relevant),SV-ADF W1,2021-11-01_2026-05-01,2025-10-01,2026-04-30,211,end_of_sample
+GOOGL,8. Hyperscale Cloud,SV-ADF W1,2021-11-01_2026-05-01,2025-10-13,2026-02-06,116,post_bridge
+ASX,P. Advanced Packaging (pure-play),GSADF,2020-01-02 → 2026-04-30,2025-10-29,2026-04-30,183,
+LRCX,1. Semiconductor Equipment,SV-ADF W1,2021-11-01_2026-05-01,2025-11-24,2026-04-30,157,end_of_sample
+ASX,P. Advanced Packaging (pure-play),SV-ADF W1,2021-11-01_2026-05-01,2025-12-29,2026-04-30,122,end_of_sample
+AMAT,1. Semiconductor Equipment,GSADF,2019-01-02 → 2026-04-30,2026-01-06,2026-04-30,114,
+DBC,C. Benchmark: Broad commodity indices,GSADF,2019-01-02 → 2026-04-30,2026-01-27,2026-04-30,93,
+PDBC,C. Benchmark: Broad commodity indices,GSADF,2019-01-02 → 2026-04-30,2026-01-27,2026-04-30,93,
+GSG,C. Benchmark: Broad commodity indices,GSADF,2019-01-02 → 2026-04-30,2026-01-29,2026-04-30,91,

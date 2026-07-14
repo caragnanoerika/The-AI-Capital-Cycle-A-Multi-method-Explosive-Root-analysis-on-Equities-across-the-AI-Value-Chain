@@ -1,0 +1,56 @@
+﻿ticker,segment,T,mw,stat,reject_90,reject_95,reject_99,n_ep_90,n_ep_95,n_ep_99,n_ep,reject,mw_scale,config
+ASML,1. Semiconductor Equipment,1590,104,1.9961929785001453,False,False,False,2,1,0,1,False,1.2,A4_mw120
+AMAT,1. Semiconductor Equipment,1590,104,2.2177097786931346,True,False,False,3,2,2,2,False,1.2,A4_mw120
+LRCX,1. Semiconductor Equipment,1590,104,4.519077208552458,True,True,True,3,2,1,2,True,1.2,A4_mw120
+NVDA,2. Chip Design (AI accelerators),1590,104,5.663879320096858,True,True,True,3,4,2,4,True,1.2,A4_mw120
+AMD,2. Chip Design (AI accelerators),1590,104,2.727525130315772,True,True,False,1,1,0,1,True,1.2,A4_mw120
+INTC,2. Chip Design (AI accelerators),1590,104,3.894274122085147,True,True,True,1,0,0,0,True,1.2,A4_mw120
+AVGO,2. Chip Design (AI accelerators),1590,104,3.5864657292731854,True,True,True,3,3,2,3,True,1.2,A4_mw120
+MRVL,2. Chip Design (AI accelerators),1590,104,3.497698287723322,True,True,True,1,0,0,0,True,1.2,A4_mw120
+MU,3. Memory (HBM-relevant),1590,104,7.564163227523366,True,True,True,3,3,3,3,True,1.2,A4_mw120
+TSM,4. Foundry (leading-edge),1590,104,2.4180689924864076,True,True,False,3,4,1,4,True,1.2,A4_mw120
+WDC,5. Storage (non-HBM control),1590,104,8.104057933556355,True,True,True,2,2,1,2,True,1.2,A4_mw120
+STX,5. Storage (non-HBM control),1590,104,7.408187913658733,True,True,True,2,2,1,2,True,1.2,A4_mw120
+ANET,6. Data-Centre Networking & Optical,1590,104,2.9757739951881392,True,True,True,3,2,2,2,True,1.2,A4_mw120
+CSCO,6. Data-Centre Networking & Optical,1590,104,1.2759174629841665,False,False,False,3,2,0,2,False,1.2,A4_mw120
+NOK,6. Data-Centre Networking & Optical,1590,104,5.141030846638883,True,True,True,0,0,0,0,True,1.2,A4_mw120
+CIEN,6. Data-Centre Networking & Optical,1590,104,7.404115152757711,True,True,True,2,1,1,1,True,1.2,A4_mw120
+EQIX,7. Data-Centre REITs (colocation & build-out),1590,104,1.5452999095422595,False,False,False,0,0,0,0,False,1.2,A4_mw120
+DLR,7. Data-Centre REITs (colocation & build-out),1590,104,1.1136784685982544,False,False,False,0,0,0,0,False,1.2,A4_mw120
+MSFT,8. Hyperscale Cloud,1590,104,0.8411026712906521,False,False,False,1,0,0,0,False,1.2,A4_mw120
+AMZN,8. Hyperscale Cloud,1590,104,1.1075967744547284,False,False,False,1,0,0,0,False,1.2,A4_mw120
+GOOGL,8. Hyperscale Cloud,1590,104,2.7463505388013743,True,True,False,2,2,1,2,True,1.2,A4_mw120
+META,8. Hyperscale Cloud,1590,104,2.1399041557395115,True,False,False,2,3,0,3,False,1.2,A4_mw120
+ORCL,8. Hyperscale Cloud,1590,104,3.494460995247394,True,True,True,4,4,1,4,True,1.2,A4_mw120
+IBM,9. Enterprise AI / Hybrid Cloud,1590,104,2.6908885137199205,True,True,False,2,2,2,2,True,1.2,A4_mw120
+PLTR,10. Application & AI Platform Software,1402,97,6.718237854392863,True,True,True,1,1,1,1,True,1.2,A4_mw120
+SNOW,10. Application & AI Platform Software,1412,97,0.9728535132491393,False,False,False,0,0,0,0,False,1.2,A4_mw120
+DDOG,10. Application & AI Platform Software,1590,104,1.94431467332543,False,False,False,1,1,0,1,False,1.2,A4_mw120
+AI,10. Application & AI Platform Software,1353,94,4.332648819936443,True,True,True,1,1,0,1,True,1.2,A4_mw120
+QCOM,11. Edge AI & Devices,1590,104,2.1397656367306763,True,False,False,2,0,0,0,False,1.2,A4_mw120
+AAPL,11. Edge AI & Devices,1590,104,1.567283134755569,False,False,False,0,0,0,0,False,1.2,A4_mw120
+TSLA,11. Edge AI & Devices,1590,104,4.842505239233305,True,True,True,1,0,0,0,True,1.2,A4_mw120
+CRWV,P. Specialised AI Cloud (neoclouds),274,38,2.341678524898565,True,True,False,0,0,0,0,True,1.2,A4_mw120
+NBIS,P. Specialised AI Cloud (neoclouds),382,46,1.8545783513512324,True,False,False,1,1,0,1,False,1.2,A4_mw120
+CEG,P. Power & Grid (data-centre electricity),1074,82,2.936699751975363,True,True,True,3,2,1,2,True,1.2,A4_mw120
+VST,P. Power & Grid (data-centre electricity),1590,104,8.49218639224872,True,True,True,2,2,1,2,True,1.2,A4_mw120
+ASX,P. Advanced Packaging (pure-play),1590,104,6.1279919119149495,True,True,True,2,1,1,1,True,1.2,A4_mw120
+USO,C. AI-relevant: Energy (DC power proxy),1590,104,4.785322891928645,True,True,True,1,1,0,1,True,1.2,A4_mw120
+UNG,C. AI-relevant: Energy (DC power proxy),1590,104,3.015538988982393,True,True,True,1,1,0,1,True,1.2,A4_mw120
+BNO,C. AI-relevant: Energy (DC power proxy),1590,104,5.112924288756491,True,True,True,2,1,0,1,True,1.2,A4_mw120
+JJC,C. AI-relevant: Industrial metals (hardware inputs),1590,104,1.7482371939679386,False,False,False,1,1,0,1,False,1.2,A4_mw120
+PPLT,C. AI-relevant: Industrial metals (hardware inputs),1590,104,5.411996795966795,True,True,True,1,1,1,1,True,1.2,A4_mw120
+PALL,C. AI-relevant: Industrial metals (hardware inputs),1590,104,2.4226053767221174,True,True,False,1,0,0,0,True,1.2,A4_mw120
+GLD,C. Confound: Precious metals (monetary),1590,104,5.943643690673572,True,True,True,1,1,1,1,True,1.2,A4_mw120
+SLV,C. Confound: Precious metals (monetary),1590,104,12.099596302088546,True,True,True,1,1,1,1,True,1.2,A4_mw120
+DBA,C. Placebo: Agriculture,1590,104,2.943072386964374,True,True,True,2,2,1,2,True,1.2,A4_mw120
+WEAT,C. Placebo: Agriculture,1590,104,4.521791568026655,True,True,True,1,0,0,0,True,1.2,A4_mw120
+CORN,C. Placebo: Agriculture,1590,104,3.7081046001840154,True,True,True,2,2,1,2,True,1.2,A4_mw120
+SOYB,C. Placebo: Agriculture,1590,104,3.7758552995294927,True,True,True,2,2,1,2,True,1.2,A4_mw120
+COW,C. Placebo: Livestock,1590,104,0.6981287325984525,False,False,False,0,0,0,0,False,1.2,A4_mw120
+DBC,C. Benchmark: Broad commodity indices,1590,104,3.815273927983043,True,True,True,2,2,3,2,True,1.2,A4_mw120
+GSG,C. Benchmark: Broad commodity indices,1590,104,5.125905333433657,True,True,True,2,3,1,3,True,1.2,A4_mw120
+PDBC,C. Benchmark: Broad commodity indices,1590,104,3.9710660812759326,True,True,True,2,2,3,2,True,1.2,A4_mw120
+^IXIC,0. Index / Control,1590,104,1.0160216149744945,False,False,False,0,0,0,0,False,1.2,A4_mw120
+^SOX,0. Index / Control,1590,104,2.197223628291576,True,False,False,2,0,0,0,False,1.2,A4_mw120
+^GSPC,0. Index / Control,1590,104,1.3468260675963586,False,False,False,1,0,0,0,False,1.2,A4_mw120

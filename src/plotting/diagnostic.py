@@ -5,12 +5,15 @@ Modify visualization without touching the analysis layer.
 from __future__ import annotations
 from pathlib import Path
 from typing import Optional
+import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 import pandas as pd
 from config import settings
 from src.io.data    import load_ticker_series
-from src.io.results import load_gsadf, load_svadf, load_sadf, load_sadf_paths
+from src.io.results import (
+    load_gsadf, load_svadf, load_sadf, load_sadf_paths, list_svadf_windows,
+)
 
 
 def plot_sadf_only(ticker: str, save_path: Optional[Path] = None,
@@ -283,8 +286,6 @@ def plot_svadf_only(ticker: str,
     windows : list of (start, end) to overlay — defaults to [W1, W2] from settings.
     window  : legacy single-window argument; wrapped into a list.
     """
-    from src.io.results import list_svadf_windows
-
     # Resolve windows
     if windows is None:
         if window is not None:
@@ -403,8 +404,6 @@ def plot_svadf_segment_panel(
     windows : list of (start, end) windows to overlay.
               Defaults to [W1, W2] from settings.
     """
-    from src.io.results import load_svadf, list_svadf_windows
-
     if windows is None:
         windows = [
             (settings.SVADF_DEFAULT_START, settings.SVADF_DEFAULT_END),
@@ -519,7 +518,6 @@ def _find_near_miss_crossings(
     of length 1 … M-1.  These are crossings too short to trigger origination
     — i.e. volatility spikes that SV-ADF correctly ignores.
     """
-    import numpy as np
     above = np.isfinite(stat) & (stat > thr)
     runs  = []
     in_run, s = False, 0
@@ -562,9 +560,6 @@ def plot_svadf_volatility(
                    the load_ticker_series disk lookup — useful for validation
                    cases whose data is not in the main prices.csv.
     """
-    import numpy as np
-    from src.io.results import load_svadf, list_svadf_windows
-
     if window is None:
         window = (settings.SVADF_DEFAULT_START, settings.SVADF_DEFAULT_END)
 

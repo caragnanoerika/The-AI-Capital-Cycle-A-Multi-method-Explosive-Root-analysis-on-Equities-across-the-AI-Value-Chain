@@ -1,0 +1,56 @@
+﻿ticker,segment,stat,cv,reject,n_ep,config,alpha
+ASML,1. Semiconductor Equipment,1.9961935063779255,2.389961828908242,False,1,A3_alpha95_baseline,0.95
+AMAT,1. Semiconductor Equipment,2.217708473470351,2.389961828908242,False,2,A3_alpha95_baseline,0.95
+LRCX,1. Semiconductor Equipment,4.522694891777681,2.389961828908242,True,3,A3_alpha95_baseline,0.95
+NVDA,2. Chip Design (AI accelerators),6.340155291518158,2.389961828908242,True,4,A3_alpha95_baseline,0.95
+AMD,2. Chip Design (AI accelerators),2.9018145370953694,2.389961828908242,True,1,A3_alpha95_baseline,0.95
+INTC,2. Chip Design (AI accelerators),3.894274122085147,2.389961828908242,True,0,A3_alpha95_baseline,0.95
+AVGO,2. Chip Design (AI accelerators),4.0022831668335215,2.389961828908242,True,3,A3_alpha95_baseline,0.95
+MRVL,2. Chip Design (AI accelerators),3.602804832793447,2.389961828908242,True,0,A3_alpha95_baseline,0.95
+MU,3. Memory (HBM-relevant),7.8633776042172165,2.389961828908242,True,3,A3_alpha95_baseline,0.95
+TSM,4. Foundry (leading-edge),2.9229963187959465,2.389961828908242,True,5,A3_alpha95_baseline,0.95
+WDC,5. Storage (non-HBM control),8.494036052944061,2.389961828908242,True,2,A3_alpha95_baseline,0.95
+STX,5. Storage (non-HBM control),7.94354458249899,2.389961828908242,True,2,A3_alpha95_baseline,0.95
+ANET,6. Data-Centre Networking & Optical,3.0351797639065077,2.389961828908242,True,2,A3_alpha95_baseline,0.95
+CSCO,6. Data-Centre Networking & Optical,1.37308800679829,2.389961828908242,False,1,A3_alpha95_baseline,0.95
+NOK,6. Data-Centre Networking & Optical,5.1410309300239,2.389961828908242,True,0,A3_alpha95_baseline,0.95
+CIEN,6. Data-Centre Networking & Optical,7.936650190042857,2.389961828908242,True,1,A3_alpha95_baseline,0.95
+EQIX,7. Data-Centre REITs (colocation & build-out),1.5452993927061522,2.389961828908242,False,0,A3_alpha95_baseline,0.95
+DLR,7. Data-Centre REITs (colocation & build-out),1.1136786853565857,2.389961828908242,False,0,A3_alpha95_baseline,0.95
+MSFT,8. Hyperscale Cloud,2.568293304112563,2.389961828908242,True,0,A3_alpha95_baseline,0.95
+AMZN,8. Hyperscale Cloud,2.317856612653562,2.389961828908242,False,1,A3_alpha95_baseline,0.95
+GOOGL,8. Hyperscale Cloud,2.746351596690522,2.389961828908242,True,2,A3_alpha95_baseline,0.95
+META,8. Hyperscale Cloud,2.1399076090792866,2.389961828908242,False,3,A3_alpha95_baseline,0.95
+ORCL,8. Hyperscale Cloud,3.494468345966319,2.389961828908242,True,4,A3_alpha95_baseline,0.95
+IBM,9. Enterprise AI / Hybrid Cloud,2.690892816903042,2.389961828908242,True,3,A3_alpha95_baseline,0.95
+PLTR,10. Application & AI Platform Software,6.718237854392863,2.3650174015902574,True,1,A3_alpha95_baseline,0.95
+SNOW,10. Application & AI Platform Software,0.9728535132491414,2.3586442666524325,False,0,A3_alpha95_baseline,0.95
+DDOG,10. Application & AI Platform Software,1.9443146733254326,2.4066307988687945,False,1,A3_alpha95_baseline,0.95
+AI,10. Application & AI Platform Software,4.332648819936443,2.3642515588364805,True,0,A3_alpha95_baseline,0.95
+QCOM,11. Edge AI & Devices,2.1397640486838263,2.389961828908242,False,1,A3_alpha95_baseline,0.95
+AAPL,11. Edge AI & Devices,2.4317073199020496,2.389961828908242,True,1,A3_alpha95_baseline,0.95
+TSLA,11. Edge AI & Devices,7.83321874592293,2.389961828908242,True,2,A3_alpha95_baseline,0.95
+CRWV,P. Specialised AI Cloud (neoclouds),3.306980048561014,2.197005575087222,True,0,A3_alpha95_baseline,0.95
+NBIS,P. Specialised AI Cloud (neoclouds),1.8545783513512324,2.2047043318540043,False,1,A3_alpha95_baseline,0.95
+CEG,P. Power & Grid (data-centre electricity),3.05019858755069,2.336052869731993,True,2,A3_alpha95_baseline,0.95
+VST,P. Power & Grid (data-centre electricity),8.49218639224872,2.394809355446024,True,2,A3_alpha95_baseline,0.95
+ASX,P. Advanced Packaging (pure-play),6.1279919119149495,2.394809355446024,True,1,A3_alpha95_baseline,0.95
+USO,C. AI-relevant: Energy (DC power proxy),4.785322891928645,2.389961828908242,True,2,A3_alpha95_baseline,0.95
+UNG,C. AI-relevant: Energy (DC power proxy),3.015538988982393,2.389961828908242,True,1,A3_alpha95_baseline,0.95
+BNO,C. AI-relevant: Energy (DC power proxy),5.11292428875649,2.389961828908242,True,0,A3_alpha95_baseline,0.95
+JJC,C. AI-relevant: Industrial metals (hardware inputs),2.0420397669865373,2.389961828908242,False,1,A3_alpha95_baseline,0.95
+PPLT,C. AI-relevant: Industrial metals (hardware inputs),5.4119974244134905,2.389961828908242,True,1,A3_alpha95_baseline,0.95
+PALL,C. AI-relevant: Industrial metals (hardware inputs),3.6970521336214626,2.389961828908242,True,0,A3_alpha95_baseline,0.95
+GLD,C. Confound: Precious metals (monetary),5.943643690673575,2.389961828908242,True,1,A3_alpha95_baseline,0.95
+SLV,C. Confound: Precious metals (monetary),12.099596302088546,2.389961828908242,True,1,A3_alpha95_baseline,0.95
+DBA,C. Placebo: Agriculture,2.9430750579844522,2.389961828908242,True,3,A3_alpha95_baseline,0.95
+WEAT,C. Placebo: Agriculture,4.521791568026655,2.389961828908242,True,1,A3_alpha95_baseline,0.95
+CORN,C. Placebo: Agriculture,3.7475942507233406,2.389961828908242,True,2,A3_alpha95_baseline,0.95
+SOYB,C. Placebo: Agriculture,3.822685159776912,2.389961828908242,True,2,A3_alpha95_baseline,0.95
+COW,C. Placebo: Livestock,2.948487430469716,2.389961828908242,True,0,A3_alpha95_baseline,0.95
+DBC,C. Benchmark: Broad commodity indices,3.8152691887026746,2.389961828908242,True,3,A3_alpha95_baseline,0.95
+GSG,C. Benchmark: Broad commodity indices,5.125905333433657,2.389961828908242,True,3,A3_alpha95_baseline,0.95
+PDBC,C. Benchmark: Broad commodity indices,3.971065498903618,2.389961828908242,True,3,A3_alpha95_baseline,0.95
+^IXIC,0. Index / Control,1.0420189395473032,2.389961828908242,False,0,A3_alpha95_baseline,0.95
+^SOX,0. Index / Control,2.206190167567886,2.389961828908242,False,0,A3_alpha95_baseline,0.95
+^GSPC,0. Index / Control,1.3468260675963586,2.389961828908242,False,0,A3_alpha95_baseline,0.95
